@@ -1,0 +1,2265 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'hexo',
+1 verbose cli   '--save-dev' ]
+2 info using npm@3.6.0
+3 info using node@v5.6.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData hexo@^3.2.0
+8 silly fetchNamedPackageData hexo
+9 silly mapToRegistry name hexo
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/hexo
+13 verbose request uri https://registry.npmjs.org/hexo
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 09:02:50
+16 verbose request id 63013560ae50faa3
+17 verbose etag W/"581307de-27ef2"
+18 verbose lastModified Fri, 28 Oct 2016 08:10:06 GMT
+19 http request GET https://registry.npmjs.org/hexo
+20 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+21 info attempt registry request try #2 at 09:03:21
+22 verbose etag W/"581307de-27ef2"
+23 verbose lastModified Fri, 28 Oct 2016 08:10:06 GMT
+24 http request GET https://registry.npmjs.org/hexo
+25 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+26 info attempt registry request try #3 at 09:04:42
+27 verbose etag W/"581307de-27ef2"
+28 verbose lastModified Fri, 28 Oct 2016 08:10:06 GMT
+29 http request GET https://registry.npmjs.org/hexo
+30 silly get cb [ 304, undefined ]
+31 verbose etag https://registry.npmjs.org/hexo from cache
+32 verbose get saving hexo to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\hexo\.cache.json
+33 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+34 silly install normalizeTree
+35 silly loadCurrentTree Finishing
+36 silly loadIdealTree Starting
+37 silly install loadIdealTree
+38 silly cloneCurrentTree Starting
+39 silly install cloneCurrentTreeToIdealTree
+40 silly cloneCurrentTree Finishing
+41 silly loadShrinkwrap Starting
+42 silly install loadShrinkwrap
+43 silly loadShrinkwrap Finishing
+44 silly loadAllDepsIntoIdealTree Starting
+45 silly install loadAllDepsIntoIdealTree
+46 silly resolveWithNewModule hexo@3.2.2 checking installable status
+47 silly cache add args [ 'hexo@^3.2.0', null ]
+48 verbose cache add spec hexo@^3.2.0
+49 silly cache add parsed spec Result {
+49 silly cache add   raw: 'hexo@^3.2.0',
+49 silly cache add   scope: null,
+49 silly cache add   name: 'hexo',
+49 silly cache add   rawSpec: '^3.2.0',
+49 silly cache add   spec: '>=3.2.0 <4.0.0',
+49 silly cache add   type: 'range' }
+50 silly addNamed hexo@>=3.2.0 <4.0.0
+51 verbose addNamed ">=3.2.0 <4.0.0" is a valid semver range for hexo
+52 silly addNameRange { name: 'hexo', range: '>=3.2.0 <4.0.0', hasData: false }
+53 silly mapToRegistry name hexo
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry uri https://registry.npmjs.org/hexo
+57 verbose addNameRange registry:https://registry.npmjs.org/hexo not in flight; fetching
+58 verbose get https://registry.npmjs.org/hexo not expired, no request
+59 silly addNameRange number 2 { name: 'hexo', range: '>=3.2.0 <4.0.0', hasData: true }
+60 silly addNameRange versions [ 'hexo',
+60 silly addNameRange   [ '0.0.1',
+60 silly addNameRange     '0.0.2',
+60 silly addNameRange     '0.0.3',
+60 silly addNameRange     '0.0.4',
+60 silly addNameRange     '0.0.5',
+60 silly addNameRange     '0.0.6',
+60 silly addNameRange     '0.1.0',
+60 silly addNameRange     '0.1.1',
+60 silly addNameRange     '0.1.2',
+60 silly addNameRange     '0.1.3',
+60 silly addNameRange     '0.1.4',
+60 silly addNameRange     '0.1.5',
+60 silly addNameRange     '0.1.6',
+60 silly addNameRange     '0.1.7',
+60 silly addNameRange     '0.1.8',
+60 silly addNameRange     '0.1.9',
+60 silly addNameRange     '0.1.10',
+60 silly addNameRange     '0.1.11',
+60 silly addNameRange     '0.2.0',
+60 silly addNameRange     '0.2.1',
+60 silly addNameRange     '0.3.0',
+60 silly addNameRange     '0.3.1',
+60 silly addNameRange     '0.3.2',
+60 silly addNameRange     '0.4.0',
+60 silly addNameRange     '0.4.1',
+60 silly addNameRange     '0.4.2',
+60 silly addNameRange     '0.4.3',
+60 silly addNameRange     '0.4.4',
+60 silly addNameRange     '0.4.5',
+60 silly addNameRange     '0.5.0',
+60 silly addNameRange     '0.5.1',
+60 silly addNameRange     '0.5.2',
+60 silly addNameRange     '0.5.3',
+60 silly addNameRange     '0.5.4',
+60 silly addNameRange     '0.5.5',
+60 silly addNameRange     '0.5.6',
+60 silly addNameRange     '0.5.7',
+60 silly addNameRange     '0.5.8',
+60 silly addNameRange     '0.5.9',
+60 silly addNameRange     '0.5.10',
+60 silly addNameRange     '0.5.11',
+60 silly addNameRange     '0.5.12',
+60 silly addNameRange     '1.0.0',
+60 silly addNameRange     '1.0.1',
+60 silly addNameRange     '1.0.2',
+60 silly addNameRange     '1.0.3',
+60 silly addNameRange     '1.0.4',
+60 silly addNameRange     '1.0.5',
+60 silly addNameRange     '1.0.6',
+60 silly addNameRange     '1.0.7',
+60 silly addNameRange     '1.0.8',
+60 silly addNameRange     '1.0.9',
+60 silly addNameRange     '1.1.0',
+60 silly addNameRange     '1.1.1',
+60 silly addNameRange     '1.1.2',
+60 silly addNameRange     '1.1.3',
+60 silly addNameRange     '1.1.4',
+60 silly addNameRange     '1.2.0',
+60 silly addNameRange     '1.2.1',
+60 silly addNameRange     '1.2.2',
+60 silly addNameRange     '1.2.3',
+60 silly addNameRange     '1.2.4',
+60 silly addNameRange     '2.0.0-beta2',
+60 silly addNameRange     '2.0.0-rc1',
+60 silly addNameRange     '2.0.0-rc2',
+60 silly addNameRange     '2.0.0-beta1',
+60 silly addNameRange     '2.0.0-rc3',
+60 silly addNameRange     '2.0.0',
+60 silly addNameRange     '2.0.1',
+60 silly addNameRange     '2.0.2',
+60 silly addNameRange     '2.0.3',
+60 silly addNameRange     '2.0.4',
+60 silly addNameRange     '2.0.5',
+60 silly addNameRange     '2.0.6',
+60 silly addNameRange     '2.0.7',
+60 silly addNameRange     '2.1.0',
+60 silly addNameRange     '2.1.1',
+60 silly addNameRange     '2.2.0',
+60 silly addNameRange     '2.2.1',
+60 silly addNameRange     '2.3.0',
+60 silly addNameRange     '2.4.0',
+60 silly addNameRange     '2.4.1',
+60 silly addNameRange     '2.4.2',
+60 silly addNameRange     '2.4.3',
+60 silly addNameRange     '2.4.4',
+60 silly addNameRange     '2.4.5',
+60 silly addNameRange     '2.5.1',
+60 silly addNameRange     '2.5.2',
+60 silly addNameRange     '2.5.3',
+60 silly addNameRange     '2.5.4',
+60 silly addNameRange     '2.5.5',
+60 silly addNameRange     '2.5.6',
+60 silly addNameRange     '2.5.7',
+60 silly addNameRange     '2.6.0',
+60 silly addNameRange     '2.6.1',
+60 silly addNameRange     '2.6.2',
+60 silly addNameRange     '2.6.3',
+60 silly addNameRange     '2.7.0',
+60 silly addNameRange     '2.7.1',
+60 silly addNameRange     '2.8.0',
+60 silly addNameRange     '2.8.1',
+60 silly addNameRange     '2.8.2',
+60 silly addNameRange     '2.8.3',
+60 silly addNameRange     '3.0.0-beta.1',
+60 silly addNameRange     '3.0.0-beta.2',
+60 silly addNameRange     '3.0.0-beta.3',
+60 silly addNameRange     '3.0.0-beta.4',
+60 silly addNameRange     '3.0.0-rc.1',
+60 silly addNameRange     '3.0.0-rc.2',
+60 silly addNameRange     '3.0.0-rc.3',
+60 silly addNameRange     '3.0.0-rc.4',
+60 silly addNameRange     '3.0.0',
+60 silly addNameRange     '3.0.1',
+60 silly addNameRange     '3.1.0',
+60 silly addNameRange     '3.1.1',
+60 silly addNameRange     '3.2.0-beta.1',
+60 silly addNameRange     '3.2.0-beta.2',
+60 silly addNameRange     '3.2.0',
+60 silly addNameRange     '3.2.1',
+60 silly addNameRange     '3.2.2' ] ]
+61 silly addNamed hexo@3.2.2
+62 verbose addNamed "3.2.2" is a plain semver version for hexo
+63 silly cache afterAdd hexo@3.2.2
+64 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\hexo\3.2.2\package\package.json not in flight; writing
+65 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+66 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\hexo\3.2.2\package\package.json written
+67 silly fetchNamedPackageData abbrev
+68 silly mapToRegistry name abbrev
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry uri https://registry.npmjs.org/abbrev
+72 silly fetchNamedPackageData archy
+73 silly mapToRegistry name archy
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry uri https://registry.npmjs.org/archy
+77 silly fetchNamedPackageData bluebird
+78 silly mapToRegistry name bluebird
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry uri https://registry.npmjs.org/bluebird
+82 silly fetchNamedPackageData chalk
+83 silly mapToRegistry name chalk
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry https://registry.npmjs.org/
+86 silly mapToRegistry uri https://registry.npmjs.org/chalk
+87 silly fetchNamedPackageData cheerio
+88 silly mapToRegistry name cheerio
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry uri https://registry.npmjs.org/cheerio
+92 silly fetchNamedPackageData hexo-cli
+93 silly mapToRegistry name hexo-cli
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry uri https://registry.npmjs.org/hexo-cli
+97 silly fetchNamedPackageData hexo-front-matter
+98 silly mapToRegistry name hexo-front-matter
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry uri https://registry.npmjs.org/hexo-front-matter
+102 silly fetchNamedPackageData hexo-fs
+103 silly mapToRegistry name hexo-fs
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry uri https://registry.npmjs.org/hexo-fs
+107 silly fetchNamedPackageData hexo-i18n
+108 silly mapToRegistry name hexo-i18n
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry uri https://registry.npmjs.org/hexo-i18n
+112 silly fetchNamedPackageData hexo-log
+113 silly mapToRegistry name hexo-log
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry uri https://registry.npmjs.org/hexo-log
+117 silly fetchNamedPackageData hexo-util
+118 silly mapToRegistry name hexo-util
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry https://registry.npmjs.org/
+121 silly mapToRegistry uri https://registry.npmjs.org/hexo-util
+122 silly fetchNamedPackageData js-yaml
+123 silly mapToRegistry name js-yaml
+124 silly mapToRegistry using default registry
+125 silly mapToRegistry registry https://registry.npmjs.org/
+126 silly mapToRegistry uri https://registry.npmjs.org/js-yaml
+127 silly fetchNamedPackageData lodash
+128 silly mapToRegistry name lodash
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry uri https://registry.npmjs.org/lodash
+132 silly fetchNamedPackageData minimatch
+133 silly mapToRegistry name minimatch
+134 silly mapToRegistry using default registry
+135 silly mapToRegistry registry https://registry.npmjs.org/
+136 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+137 silly fetchNamedPackageData moment
+138 silly mapToRegistry name moment
+139 silly mapToRegistry using default registry
+140 silly mapToRegistry registry https://registry.npmjs.org/
+141 silly mapToRegistry uri https://registry.npmjs.org/moment
+142 silly fetchNamedPackageData moment-timezone
+143 silly mapToRegistry name moment-timezone
+144 silly mapToRegistry using default registry
+145 silly mapToRegistry registry https://registry.npmjs.org/
+146 silly mapToRegistry uri https://registry.npmjs.org/moment-timezone
+147 silly fetchNamedPackageData nunjucks
+148 silly mapToRegistry name nunjucks
+149 silly mapToRegistry using default registry
+150 silly mapToRegistry registry https://registry.npmjs.org/
+151 silly mapToRegistry uri https://registry.npmjs.org/nunjucks
+152 silly fetchNamedPackageData pretty-hrtime
+153 silly mapToRegistry name pretty-hrtime
+154 silly mapToRegistry using default registry
+155 silly mapToRegistry registry https://registry.npmjs.org/
+156 silly mapToRegistry uri https://registry.npmjs.org/pretty-hrtime
+157 silly fetchNamedPackageData strip-indent
+158 silly mapToRegistry name strip-indent
+159 silly mapToRegistry using default registry
+160 silly mapToRegistry registry https://registry.npmjs.org/
+161 silly mapToRegistry uri https://registry.npmjs.org/strip-indent
+162 silly fetchNamedPackageData swig
+163 silly mapToRegistry name swig
+164 silly mapToRegistry using default registry
+165 silly mapToRegistry registry https://registry.npmjs.org/
+166 silly mapToRegistry uri https://registry.npmjs.org/swig
+167 silly fetchNamedPackageData swig-extras
+168 silly mapToRegistry name swig-extras
+169 silly mapToRegistry using default registry
+170 silly mapToRegistry registry https://registry.npmjs.org/
+171 silly mapToRegistry uri https://registry.npmjs.org/swig-extras
+172 silly fetchNamedPackageData text-table
+173 silly mapToRegistry name text-table
+174 silly mapToRegistry using default registry
+175 silly mapToRegistry registry https://registry.npmjs.org/
+176 silly mapToRegistry uri https://registry.npmjs.org/text-table
+177 silly fetchNamedPackageData tildify
+178 silly mapToRegistry name tildify
+179 silly mapToRegistry using default registry
+180 silly mapToRegistry registry https://registry.npmjs.org/
+181 silly mapToRegistry uri https://registry.npmjs.org/tildify
+182 silly fetchNamedPackageData titlecase
+183 silly mapToRegistry name titlecase
+184 silly mapToRegistry using default registry
+185 silly mapToRegistry registry https://registry.npmjs.org/
+186 silly mapToRegistry uri https://registry.npmjs.org/titlecase
+187 silly fetchNamedPackageData warehouse
+188 silly mapToRegistry name warehouse
+189 silly mapToRegistry using default registry
+190 silly mapToRegistry registry https://registry.npmjs.org/
+191 silly mapToRegistry uri https://registry.npmjs.org/warehouse
+192 verbose request uri https://registry.npmjs.org/bluebird
+193 verbose request no auth needed
+194 info attempt registry request try #1 at 09:05:04
+195 verbose etag W/"589b43f9-5f76b"
+196 verbose lastModified Wed, 08 Feb 2017 16:14:49 GMT
+197 http request GET https://registry.npmjs.org/bluebird
+198 verbose request uri https://registry.npmjs.org/abbrev
+199 verbose request no auth needed
+200 info attempt registry request try #1 at 09:05:04
+201 verbose etag W/"580d2ad6-19a5"
+202 verbose lastModified Sun, 23 Oct 2016 21:25:42 GMT
+203 http request GET https://registry.npmjs.org/abbrev
+204 verbose request uri https://registry.npmjs.org/chalk
+205 verbose request no auth needed
+206 info attempt registry request try #1 at 09:05:04
+207 verbose etag W/"589c8efb-8522"
+208 verbose lastModified Thu, 09 Feb 2017 15:47:07 GMT
+209 http request GET https://registry.npmjs.org/chalk
+210 verbose request uri https://registry.npmjs.org/hexo-cli
+211 verbose request no auth needed
+212 info attempt registry request try #1 at 09:05:04
+213 verbose etag W/"575e9ede-64fd"
+214 verbose lastModified Mon, 13 Jun 2016 11:54:06 GMT
+215 http request GET https://registry.npmjs.org/hexo-cli
+216 verbose request uri https://registry.npmjs.org/cheerio
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 09:05:04
+219 verbose etag W/"58572498-1b14b"
+220 verbose lastModified Mon, 19 Dec 2016 00:06:48 GMT
+221 http request GET https://registry.npmjs.org/cheerio
+222 verbose request uri https://registry.npmjs.org/hexo-fs
+223 verbose request no auth needed
+224 info attempt registry request try #1 at 09:05:04
+225 verbose etag W/"575e9e20-5fb7"
+226 verbose lastModified Mon, 13 Jun 2016 11:50:56 GMT
+227 http request GET https://registry.npmjs.org/hexo-fs
+228 verbose request uri https://registry.npmjs.org/archy
+229 verbose request no auth needed
+230 info attempt registry request try #1 at 09:05:04
+231 verbose etag W/"589be6c2-1b87"
+232 verbose lastModified Thu, 09 Feb 2017 03:49:22 GMT
+233 http request GET https://registry.npmjs.org/archy
+234 verbose request uri https://registry.npmjs.org/hexo-log
+235 verbose request no auth needed
+236 info attempt registry request try #1 at 09:05:04
+237 verbose etag W/"56bebc37-177b"
+238 verbose lastModified Sat, 13 Feb 2016 05:16:39 GMT
+239 http request GET https://registry.npmjs.org/hexo-log
+240 verbose request uri https://registry.npmjs.org/hexo-i18n
+241 verbose request no auth needed
+242 info attempt registry request try #1 at 09:05:04
+243 verbose etag W/"54dafc21-1e97"
+244 verbose lastModified Wed, 11 Feb 2015 06:52:17 GMT
+245 http request GET https://registry.npmjs.org/hexo-i18n
+246 verbose request uri https://registry.npmjs.org/hexo-util
+247 verbose request no auth needed
+248 info attempt registry request try #1 at 09:05:04
+249 verbose etag W/"575e9839-8552"
+250 verbose lastModified Mon, 13 Jun 2016 11:25:45 GMT
+251 http request GET https://registry.npmjs.org/hexo-util
+252 verbose request uri https://registry.npmjs.org/js-yaml
+253 verbose request no auth needed
+254 info attempt registry request try #1 at 09:05:04
+255 verbose etag W/"589a2b1f-15d98"
+256 verbose lastModified Tue, 07 Feb 2017 20:16:31 GMT
+257 http request GET https://registry.npmjs.org/js-yaml
+258 verbose request uri https://registry.npmjs.org/lodash
+259 verbose request no auth needed
+260 info attempt registry request try #1 at 09:05:04
+261 verbose etag W/"5899acb1-28eaf"
+262 verbose lastModified Tue, 07 Feb 2017 11:17:05 GMT
+263 http request GET https://registry.npmjs.org/lodash
+264 verbose request uri https://registry.npmjs.org/minimatch
+265 verbose request no auth needed
+266 info attempt registry request try #1 at 09:05:04
+267 verbose etag W/"5896e92d-cbed"
+268 verbose lastModified Sun, 05 Feb 2017 08:58:21 GMT
+269 http request GET https://registry.npmjs.org/minimatch
+270 verbose request uri https://registry.npmjs.org/moment
+271 verbose request no auth needed
+272 info attempt registry request try #1 at 09:05:04
+273 verbose etag W/"589c4c9c-1a33e"
+274 verbose lastModified Thu, 09 Feb 2017 11:03:56 GMT
+275 http request GET https://registry.npmjs.org/moment
+276 verbose request uri https://registry.npmjs.org/nunjucks
+277 verbose request no auth needed
+278 info attempt registry request try #1 at 09:05:04
+279 verbose etag W/"58550498-e4b4"
+280 verbose lastModified Sat, 17 Dec 2016 09:25:44 GMT
+281 http request GET https://registry.npmjs.org/nunjucks
+282 verbose request uri https://registry.npmjs.org/pretty-hrtime
+283 verbose request no auth needed
+284 info attempt registry request try #1 at 09:05:04
+285 verbose etag W/"581e3549-2aa5"
+286 verbose lastModified Sat, 05 Nov 2016 19:38:49 GMT
+287 http request GET https://registry.npmjs.org/pretty-hrtime
+288 verbose request uri https://registry.npmjs.org/moment-timezone
+289 verbose request no auth needed
+290 info attempt registry request try #1 at 09:05:04
+291 verbose etag W/"583b7196-a1e8"
+292 verbose lastModified Sun, 27 Nov 2016 23:51:50 GMT
+293 http request GET https://registry.npmjs.org/moment-timezone
+294 verbose request uri https://registry.npmjs.org/strip-indent
+295 verbose request no auth needed
+296 info attempt registry request try #1 at 09:05:04
+297 verbose etag W/"5719baeb-2928"
+298 verbose lastModified Fri, 22 Apr 2016 05:47:23 GMT
+299 http request GET https://registry.npmjs.org/strip-indent
+300 verbose request uri https://registry.npmjs.org/swig
+301 verbose request no auth needed
+302 info attempt registry request try #1 at 09:05:04
+303 verbose etag W/"5816899e-1225d"
+304 verbose lastModified Mon, 31 Oct 2016 00:00:30 GMT
+305 http request GET https://registry.npmjs.org/swig
+306 verbose request uri https://registry.npmjs.org/swig-extras
+307 verbose request no auth needed
+308 info attempt registry request try #1 at 09:05:04
+309 verbose etag W/"5221124f-1421"
+310 verbose lastModified Fri, 30 Aug 2013 21:44:47 GMT
+311 http request GET https://registry.npmjs.org/swig-extras
+312 verbose request uri https://registry.npmjs.org/tildify
+313 verbose request no auth needed
+314 info attempt registry request try #1 at 09:05:04
+315 verbose etag W/"5835db3a-25af"
+316 verbose lastModified Wed, 23 Nov 2016 18:08:58 GMT
+317 http request GET https://registry.npmjs.org/tildify
+318 verbose request uri https://registry.npmjs.org/titlecase
+319 verbose request no auth needed
+320 info attempt registry request try #1 at 09:05:04
+321 verbose etag W/"57f6cc5a-2263"
+322 verbose lastModified Thu, 06 Oct 2016 22:12:42 GMT
+323 http request GET https://registry.npmjs.org/titlecase
+324 verbose request uri https://registry.npmjs.org/hexo-front-matter
+325 verbose request no auth needed
+326 info attempt registry request try #1 at 09:05:04
+327 verbose etag W/"575ea6e1-3312"
+328 verbose lastModified Mon, 13 Jun 2016 12:28:17 GMT
+329 http request GET https://registry.npmjs.org/hexo-front-matter
+330 verbose request uri https://registry.npmjs.org/warehouse
+331 verbose request no auth needed
+332 info attempt registry request try #1 at 09:05:04
+333 verbose etag W/"58406038-b317"
+334 verbose lastModified Thu, 01 Dec 2016 17:39:04 GMT
+335 http request GET https://registry.npmjs.org/warehouse
+336 verbose request uri https://registry.npmjs.org/text-table
+337 verbose request no auth needed
+338 info attempt registry request try #1 at 09:05:04
+339 verbose etag W/"5822c5bc-4acb"
+340 verbose lastModified Wed, 09 Nov 2016 06:44:12 GMT
+341 http request GET https://registry.npmjs.org/text-table
+342 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+343 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+344 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+345 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+346 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+347 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+348 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+349 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+350 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+351 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+352 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+353 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+354 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+355 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+356 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+357 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+358 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+359 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+360 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+361 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+362 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+363 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+364 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+365 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+366 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+367 info attempt registry request try #2 at 09:05:35
+368 verbose etag W/"589b43f9-5f76b"
+369 verbose lastModified Wed, 08 Feb 2017 16:14:49 GMT
+370 http request GET https://registry.npmjs.org/bluebird
+371 info attempt registry request try #2 at 09:05:35
+372 verbose etag W/"589c8efb-8522"
+373 verbose lastModified Thu, 09 Feb 2017 15:47:07 GMT
+374 http request GET https://registry.npmjs.org/chalk
+375 info attempt registry request try #2 at 09:05:35
+376 verbose etag W/"575e9e20-5fb7"
+377 verbose lastModified Mon, 13 Jun 2016 11:50:56 GMT
+378 http request GET https://registry.npmjs.org/hexo-fs
+379 info attempt registry request try #2 at 09:05:35
+380 verbose etag W/"575e9ede-64fd"
+381 verbose lastModified Mon, 13 Jun 2016 11:54:06 GMT
+382 http request GET https://registry.npmjs.org/hexo-cli
+383 info attempt registry request try #2 at 09:05:35
+384 verbose etag W/"58572498-1b14b"
+385 verbose lastModified Mon, 19 Dec 2016 00:06:48 GMT
+386 http request GET https://registry.npmjs.org/cheerio
+387 info attempt registry request try #2 at 09:05:35
+388 verbose etag W/"589a2b1f-15d98"
+389 verbose lastModified Tue, 07 Feb 2017 20:16:31 GMT
+390 http request GET https://registry.npmjs.org/js-yaml
+391 info attempt registry request try #2 at 09:05:35
+392 verbose etag W/"56bebc37-177b"
+393 verbose lastModified Sat, 13 Feb 2016 05:16:39 GMT
+394 http request GET https://registry.npmjs.org/hexo-log
+395 info attempt registry request try #2 at 09:05:35
+396 verbose etag W/"575e9839-8552"
+397 verbose lastModified Mon, 13 Jun 2016 11:25:45 GMT
+398 http request GET https://registry.npmjs.org/hexo-util
+399 info attempt registry request try #2 at 09:05:35
+400 verbose etag W/"54dafc21-1e97"
+401 verbose lastModified Wed, 11 Feb 2015 06:52:17 GMT
+402 http request GET https://registry.npmjs.org/hexo-i18n
+403 info attempt registry request try #2 at 09:05:35
+404 verbose etag W/"589be6c2-1b87"
+405 verbose lastModified Thu, 09 Feb 2017 03:49:22 GMT
+406 http request GET https://registry.npmjs.org/archy
+407 info attempt registry request try #2 at 09:05:35
+408 verbose etag W/"580d2ad6-19a5"
+409 verbose lastModified Sun, 23 Oct 2016 21:25:42 GMT
+410 http request GET https://registry.npmjs.org/abbrev
+411 info attempt registry request try #2 at 09:05:35
+412 verbose etag W/"5896e92d-cbed"
+413 verbose lastModified Sun, 05 Feb 2017 08:58:21 GMT
+414 http request GET https://registry.npmjs.org/minimatch
+415 info attempt registry request try #2 at 09:05:35
+416 verbose etag W/"5899acb1-28eaf"
+417 verbose lastModified Tue, 07 Feb 2017 11:17:05 GMT
+418 http request GET https://registry.npmjs.org/lodash
+419 info attempt registry request try #2 at 09:05:35
+420 verbose etag W/"583b7196-a1e8"
+421 verbose lastModified Sun, 27 Nov 2016 23:51:50 GMT
+422 http request GET https://registry.npmjs.org/moment-timezone
+423 info attempt registry request try #2 at 09:05:35
+424 verbose etag W/"581e3549-2aa5"
+425 verbose lastModified Sat, 05 Nov 2016 19:38:49 GMT
+426 http request GET https://registry.npmjs.org/pretty-hrtime
+427 info attempt registry request try #2 at 09:05:35
+428 verbose etag W/"5835db3a-25af"
+429 verbose lastModified Wed, 23 Nov 2016 18:08:58 GMT
+430 http request GET https://registry.npmjs.org/tildify
+431 info attempt registry request try #2 at 09:05:35
+432 verbose etag W/"5221124f-1421"
+433 verbose lastModified Fri, 30 Aug 2013 21:44:47 GMT
+434 http request GET https://registry.npmjs.org/swig-extras
+435 info attempt registry request try #2 at 09:05:35
+436 verbose etag W/"5816899e-1225d"
+437 verbose lastModified Mon, 31 Oct 2016 00:00:30 GMT
+438 http request GET https://registry.npmjs.org/swig
+439 info attempt registry request try #2 at 09:05:35
+440 verbose etag W/"57f6cc5a-2263"
+441 verbose lastModified Thu, 06 Oct 2016 22:12:42 GMT
+442 http request GET https://registry.npmjs.org/titlecase
+443 info attempt registry request try #2 at 09:05:35
+444 verbose etag W/"589c4c9c-1a33e"
+445 verbose lastModified Thu, 09 Feb 2017 11:03:56 GMT
+446 http request GET https://registry.npmjs.org/moment
+447 info attempt registry request try #2 at 09:05:35
+448 verbose etag W/"5822c5bc-4acb"
+449 verbose lastModified Wed, 09 Nov 2016 06:44:12 GMT
+450 http request GET https://registry.npmjs.org/text-table
+451 info attempt registry request try #2 at 09:05:35
+452 verbose etag W/"58406038-b317"
+453 verbose lastModified Thu, 01 Dec 2016 17:39:04 GMT
+454 http request GET https://registry.npmjs.org/warehouse
+455 info attempt registry request try #2 at 09:05:35
+456 verbose etag W/"575ea6e1-3312"
+457 verbose lastModified Mon, 13 Jun 2016 12:28:17 GMT
+458 http request GET https://registry.npmjs.org/hexo-front-matter
+459 info attempt registry request try #2 at 09:05:35
+460 verbose etag W/"58550498-e4b4"
+461 verbose lastModified Sat, 17 Dec 2016 09:25:44 GMT
+462 http request GET https://registry.npmjs.org/nunjucks
+463 info attempt registry request try #2 at 09:05:35
+464 verbose etag W/"5719baeb-2928"
+465 verbose lastModified Fri, 22 Apr 2016 05:47:23 GMT
+466 http request GET https://registry.npmjs.org/strip-indent
+467 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+468 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+469 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+470 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+471 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+472 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+473 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+474 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+475 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+476 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+477 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+478 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+479 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+480 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+481 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+482 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+483 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+484 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+485 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+486 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+487 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+488 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+489 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+490 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+491 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+492 info attempt registry request try #3 at 09:06:56
+493 verbose etag W/"589b43f9-5f76b"
+494 verbose lastModified Wed, 08 Feb 2017 16:14:49 GMT
+495 http request GET https://registry.npmjs.org/bluebird
+496 info attempt registry request try #3 at 09:06:56
+497 verbose etag W/"58572498-1b14b"
+498 verbose lastModified Mon, 19 Dec 2016 00:06:48 GMT
+499 http request GET https://registry.npmjs.org/cheerio
+500 info attempt registry request try #3 at 09:06:56
+501 verbose etag W/"589c8efb-8522"
+502 verbose lastModified Thu, 09 Feb 2017 15:47:07 GMT
+503 http request GET https://registry.npmjs.org/chalk
+504 info attempt registry request try #3 at 09:06:56
+505 verbose etag W/"575e9ede-64fd"
+506 verbose lastModified Mon, 13 Jun 2016 11:54:06 GMT
+507 http request GET https://registry.npmjs.org/hexo-cli
+508 info attempt registry request try #3 at 09:06:56
+509 verbose etag W/"575e9e20-5fb7"
+510 verbose lastModified Mon, 13 Jun 2016 11:50:56 GMT
+511 http request GET https://registry.npmjs.org/hexo-fs
+512 info attempt registry request try #3 at 09:06:56
+513 verbose etag W/"589a2b1f-15d98"
+514 verbose lastModified Tue, 07 Feb 2017 20:16:31 GMT
+515 http request GET https://registry.npmjs.org/js-yaml
+516 info attempt registry request try #3 at 09:06:56
+517 verbose etag W/"54dafc21-1e97"
+518 verbose lastModified Wed, 11 Feb 2015 06:52:17 GMT
+519 http request GET https://registry.npmjs.org/hexo-i18n
+520 info attempt registry request try #3 at 09:06:56
+521 verbose etag W/"575e9839-8552"
+522 verbose lastModified Mon, 13 Jun 2016 11:25:45 GMT
+523 http request GET https://registry.npmjs.org/hexo-util
+524 info attempt registry request try #3 at 09:06:56
+525 verbose etag W/"5835db3a-25af"
+526 verbose lastModified Wed, 23 Nov 2016 18:08:58 GMT
+527 http request GET https://registry.npmjs.org/tildify
+528 info attempt registry request try #3 at 09:06:56
+529 verbose etag W/"5899acb1-28eaf"
+530 verbose lastModified Tue, 07 Feb 2017 11:17:05 GMT
+531 http request GET https://registry.npmjs.org/lodash
+532 info attempt registry request try #3 at 09:06:56
+533 verbose etag W/"580d2ad6-19a5"
+534 verbose lastModified Sun, 23 Oct 2016 21:25:42 GMT
+535 http request GET https://registry.npmjs.org/abbrev
+536 info attempt registry request try #3 at 09:06:56
+537 verbose etag W/"5896e92d-cbed"
+538 verbose lastModified Sun, 05 Feb 2017 08:58:21 GMT
+539 http request GET https://registry.npmjs.org/minimatch
+540 info attempt registry request try #3 at 09:06:56
+541 verbose etag W/"583b7196-a1e8"
+542 verbose lastModified Sun, 27 Nov 2016 23:51:50 GMT
+543 http request GET https://registry.npmjs.org/moment-timezone
+544 info attempt registry request try #3 at 09:06:56
+545 verbose etag W/"5221124f-1421"
+546 verbose lastModified Fri, 30 Aug 2013 21:44:47 GMT
+547 http request GET https://registry.npmjs.org/swig-extras
+548 info attempt registry request try #3 at 09:06:56
+549 verbose etag W/"57f6cc5a-2263"
+550 verbose lastModified Thu, 06 Oct 2016 22:12:42 GMT
+551 http request GET https://registry.npmjs.org/titlecase
+552 info attempt registry request try #3 at 09:06:56
+553 verbose etag W/"589c4c9c-1a33e"
+554 verbose lastModified Thu, 09 Feb 2017 11:03:56 GMT
+555 http request GET https://registry.npmjs.org/moment
+556 info attempt registry request try #3 at 09:06:56
+557 verbose etag W/"5822c5bc-4acb"
+558 verbose lastModified Wed, 09 Nov 2016 06:44:12 GMT
+559 http request GET https://registry.npmjs.org/text-table
+560 info attempt registry request try #3 at 09:06:56
+561 verbose etag W/"575ea6e1-3312"
+562 verbose lastModified Mon, 13 Jun 2016 12:28:17 GMT
+563 http request GET https://registry.npmjs.org/hexo-front-matter
+564 info attempt registry request try #3 at 09:06:56
+565 verbose etag W/"581e3549-2aa5"
+566 verbose lastModified Sat, 05 Nov 2016 19:38:49 GMT
+567 http request GET https://registry.npmjs.org/pretty-hrtime
+568 info attempt registry request try #3 at 09:06:56
+569 verbose etag W/"58406038-b317"
+570 verbose lastModified Thu, 01 Dec 2016 17:39:04 GMT
+571 http request GET https://registry.npmjs.org/warehouse
+572 info attempt registry request try #3 at 09:06:56
+573 verbose etag W/"5816899e-1225d"
+574 verbose lastModified Mon, 31 Oct 2016 00:00:30 GMT
+575 http request GET https://registry.npmjs.org/swig
+576 info attempt registry request try #3 at 09:06:56
+577 verbose etag W/"56bebc37-177b"
+578 verbose lastModified Sat, 13 Feb 2016 05:16:39 GMT
+579 http request GET https://registry.npmjs.org/hexo-log
+580 info attempt registry request try #3 at 09:06:56
+581 verbose etag W/"58550498-e4b4"
+582 verbose lastModified Sat, 17 Dec 2016 09:25:44 GMT
+583 http request GET https://registry.npmjs.org/nunjucks
+584 info attempt registry request try #3 at 09:06:56
+585 verbose etag W/"589be6c2-1b87"
+586 verbose lastModified Thu, 09 Feb 2017 03:49:22 GMT
+587 http request GET https://registry.npmjs.org/archy
+588 info attempt registry request try #3 at 09:06:56
+589 verbose etag W/"5719baeb-2928"
+590 verbose lastModified Fri, 22 Apr 2016 05:47:23 GMT
+591 http request GET https://registry.npmjs.org/strip-indent
+592 silly get cb [ 304, undefined ]
+593 verbose etag https://registry.npmjs.org/bluebird from cache
+594 verbose get saving bluebird to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\bluebird\.cache.json
+595 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+596 silly resolveWithNewModule bluebird@3.4.7 checking installable status
+597 silly cache add args [ 'bluebird@^3.4.0', null ]
+598 verbose cache add spec bluebird@^3.4.0
+599 silly cache add parsed spec Result {
+599 silly cache add   raw: 'bluebird@^3.4.0',
+599 silly cache add   scope: null,
+599 silly cache add   name: 'bluebird',
+599 silly cache add   rawSpec: '^3.4.0',
+599 silly cache add   spec: '>=3.4.0 <4.0.0',
+599 silly cache add   type: 'range' }
+600 silly addNamed bluebird@>=3.4.0 <4.0.0
+601 verbose addNamed ">=3.4.0 <4.0.0" is a valid semver range for bluebird
+602 silly addNameRange { name: 'bluebird', range: '>=3.4.0 <4.0.0', hasData: false }
+603 silly mapToRegistry name bluebird
+604 silly mapToRegistry using default registry
+605 silly mapToRegistry registry https://registry.npmjs.org/
+606 silly mapToRegistry uri https://registry.npmjs.org/bluebird
+607 verbose addNameRange registry:https://registry.npmjs.org/bluebird not in flight; fetching
+608 silly get cb [ 304, undefined ]
+609 verbose etag https://registry.npmjs.org/chalk from cache
+610 verbose get saving chalk to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\chalk\.cache.json
+611 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+612 silly get cb [ 304, undefined ]
+613 verbose etag https://registry.npmjs.org/cheerio from cache
+614 verbose get saving cheerio to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\cheerio\.cache.json
+615 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+616 silly get cb [ 304, undefined ]
+617 verbose etag https://registry.npmjs.org/js-yaml from cache
+618 verbose get saving js-yaml to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\js-yaml\.cache.json
+619 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+620 silly get cb [ 304, undefined ]
+621 verbose etag https://registry.npmjs.org/hexo-fs from cache
+622 verbose get saving hexo-fs to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\hexo-fs\.cache.json
+623 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+624 silly get cb [ 304, undefined ]
+625 verbose etag https://registry.npmjs.org/hexo-cli from cache
+626 verbose get saving hexo-cli to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\hexo-cli\.cache.json
+627 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+628 verbose get https://registry.npmjs.org/bluebird not expired, no request
+629 silly addNameRange number 2 { name: 'bluebird', range: '>=3.4.0 <4.0.0', hasData: true }
+630 silly addNameRange versions [ 'bluebird',
+630 silly addNameRange   [ '0.7.1-1',
+630 silly addNameRange     '0.7.1-2',
+630 silly addNameRange     '0.7.1-3',
+630 silly addNameRange     '0.7.1-4',
+630 silly addNameRange     '0.7.1-5',
+630 silly addNameRange     '0.7.2-0',
+630 silly addNameRange     '0.7.3-0',
+630 silly addNameRange     '0.7.4-0',
+630 silly addNameRange     '0.7.4-1',
+630 silly addNameRange     '0.7.5-0',
+630 silly addNameRange     '0.7.6-0',
+630 silly addNameRange     '0.7.7-0',
+630 silly addNameRange     '0.7.7-1',
+630 silly addNameRange     '0.7.8-0',
+630 silly addNameRange     '0.7.8-1',
+630 silly addNameRange     '0.7.9-0',
+630 silly addNameRange     '0.7.9-1',
+630 silly addNameRange     '0.7.10-0',
+630 silly addNameRange     '0.7.10-1',
+630 silly addNameRange     '0.7.11-0',
+630 silly addNameRange     '0.7.12-0',
+630 silly addNameRange     '0.7.12-1',
+630 silly addNameRange     '0.7.12-2',
+630 silly addNameRange     '0.8.0-0',
+630 silly addNameRange     '0.8.0-1',
+630 silly addNameRange     '0.8.0-2',
+630 silly addNameRange     '0.8.0-3',
+630 silly addNameRange     '0.8.1-0',
+630 silly addNameRange     '0.8.2-0',
+630 silly addNameRange     '0.8.2-1',
+630 silly addNameRange     '0.8.2-2',
+630 silly addNameRange     '0.8.3-0',
+630 silly addNameRange     '0.8.3-1',
+630 silly addNameRange     '0.8.3-2',
+630 silly addNameRange     '0.8.3-3',
+630 silly addNameRange     '0.8.4-0',
+630 silly addNameRange     '0.8.4-1',
+630 silly addNameRange     '0.8.5-0',
+630 silly addNameRange     '0.8.5-1',
+630 silly addNameRange     '0.9.0-0',
+630 silly addNameRange     '0.9.1-0',
+630 silly addNameRange     '0.9.1-1',
+630 silly addNameRange     '0.9.2-0',
+630 silly addNameRange     '0.9.2-1',
+630 silly addNameRange     '0.9.3-0',
+630 silly addNameRange     '0.9.4-0',
+630 silly addNameRange     '0.9.4-1',
+630 silly addNameRange     '0.9.5-0',
+630 silly addNameRange     '0.9.6-0',
+630 silly addNameRange     '0.9.7-0',
+630 silly addNameRange     '0.9.8-0',
+630 silly addNameRange     '0.9.9-0',
+630 silly addNameRange     '0.9.10-0',
+630 silly addNameRange     '0.9.10-1',
+630 silly addNameRange     '0.9.11-0',
+630 silly addNameRange     '0.9.11-1',
+630 silly addNameRange     '0.10.0-0',
+630 silly addNameRange     '0.10.0-1',
+630 silly addNameRange     '0.10.1-0',
+630 silly addNameRange     '0.10.2-0',
+630 silly addNameRange     '0.10.2-1',
+630 silly addNameRange     '0.10.3-0',
+630 silly addNameRange     '0.10.4-0',
+630 silly addNameRange     '0.10.4-1',
+630 silly addNameRange     '0.10.5-0',
+630 silly addNameRange     '0.10.6-0',
+630 silly addNameRange     '0.10.7-0',
+630 silly addNameRange     '0.10.8-0',
+630 silly addNameRange     '0.10.9-0',
+630 silly addNameRange     '0.10.9-1',
+630 silly addNameRange     '0.10.10-0',
+630 silly addNameRange     '0.10.11-0',
+630 silly addNameRange     '0.10.11-1',
+630 silly addNameRange     '0.10.11-2',
+630 silly addNameRange     '0.10.11-4',
+630 silly addNameRange     '0.10.12-0',
+630 silly addNameRange     '0.10.13-0',
+630 silly addNameRange     '0.10.13-1',
+630 silly addNameRange     '0.10.14-0',
+630 silly addNameRange     '0.11.0-0',
+630 silly addNameRange     '0.11.1-0',
+630 silly addNameRange     '0.11.2-0',
+630 silly addNameRange     '0.11.3-0',
+630 silly addNameRange     '0.11.4-0',
+630 silly addNameRange     '0.11.4-1',
+630 silly addNameRange     '0.11.5-0',
+630 silly addNameRange     '0.11.5-1',
+630 silly addNameRange     '0.11.6-0',
+630 silly addNameRange     '1.0.0',
+630 silly addNameRange     '1.0.1',
+630 silly addNameRange     '1.0.2',
+630 silly addNameRange     '1.0.3',
+630 silly addNameRange     '1.0.4',
+630 silly addNameRange     '1.0.5',
+630 silly addNameRange     '1.0.7',
+630 silly addNameRange     '1.0.8',
+630 silly addNameRange     '1.1.0',
+630 silly addNameRange     '1.1.1',
+630 silly addNameRange     '1.2.0',
+630 silly addNameRange     '1.2.1',
+630 silly addNameRange     '1.2.2',
+630 silly addNameRange     '1.2.3',
+630 silly addNameRange     '1.2.4',
+630 silly addNameRange     '2.0.2',
+630 silly addNameRange     '2.0.3',
+630 silly addNameRange     '2.0.4',
+630 silly addNameRange     '2.0.5',
+630 silly addNameRange     '2.0.6',
+630 silly addNameRange     '2.0.7',
+630 silly addNameRange     '2.1.1',
+630 silly addNameRange     '2.1.2',
+630 silly addNameRange     '2.1.3',
+630 silly addNameRange     '2.2.0',
+630 silly addNameRange     '2.2.1',
+630 silly addNameRange     '2.2.2',
+630 silly addNameRange     '2.3.0',
+630 silly addNameRange     '2.3.1',
+630 silly addNameRange     '2.3.2',
+630 silly addNameRange     '2.3.3',
+630 silly addNameRange     '2.3.4',
+630 silly addNameRange     '2.3.5',
+630 silly addNameRange     '0.11.6',
+630 silly addNameRange     '2.3.6',
+630 silly addNameRange     '2.3.9',
+630 silly addNameRange     '2.3.10',
+630 silly addNameRange     '2.3.11',
+630 silly addNameRange     '2.4.0',
+630 silly addNameRange     '2.4.1',
+630 silly addNameRange     '2.4.2',
+630 silly addNameRange     '2.4.3',
+630 silly addNameRange     '2.5.0',
+630 silly addNameRange     '2.5.1',
+630 silly addNameRange     '2.5.2',
+630 silly addNameRange     '2.5.3',
+630 silly addNameRange     '2.6.0',
+630 silly addNameRange     '2.6.1',
+630 silly addNameRange     '2.6.2',
+630 silly addNameRange     '2.6.3',
+630 silly addNameRange     '2.6.4',
+630 silly addNameRange     '2.7.0',
+630 silly addNameRange     '2.7.1',
+630 silly addNameRange     '2.8.0',
+630 silly addNameRange     '2.8.1',
+630 silly addNameRange     '2.8.2',
+630 silly addNameRange     '2.9.0',
+630 silly addNameRange     '2.9.1',
+630 silly addNameRange     '2.9.2',
+630 silly addNameRange     '2.9.3',
+630 silly addNameRange     '2.9.4',
+630 silly addNameRange     '2.9.5',
+630 silly addNameRange     '2.9.6',
+630 silly addNameRange     '2.9.7',
+630 silly addNameRange     '2.9.8',
+630 silly addNameRange     '2.9.9',
+630 silly addNameRange     '2.9.10',
+630 silly addNameRange     '2.9.11',
+630 silly addNameRange     '2.9.12',
+630 silly addNameRange     '2.9.13',
+630 silly addNameRange     '2.9.14',
+630 silly addNameRange     '2.9.15',
+630 silly addNameRange     '2.9.16',
+630 silly addNameRange     '2.9.17',
+630 silly addNameRange     '2.9.18',
+630 silly addNameRange     '2.9.19',
+630 silly addNameRange     '2.9.20',
+630 silly addNameRange     '2.9.21',
+630 silly addNameRange     '2.9.22',
+630 silly addNameRange     '2.9.23',
+630 silly addNameRange     '2.9.24',
+630 silly addNameRange     '2.9.25',
+630 silly addNameRange     '2.9.26',
+630 silly addNameRange     '2.9.27',
+630 silly addNameRange     '2.9.28',
+630 silly addNameRange     '2.9.29',
+630 silly addNameRange     '2.9.30',
+630 silly addNameRange     '2.9.31',
+630 silly addNameRange     '2.9.32',
+630 silly addNameRange     '2.9.33',
+630 silly addNameRange     '2.9.34',
+630 silly addNameRange     '2.10.0',
+630 silly addNameRange     '2.10.1',
+630 silly addNameRange     '2.10.2',
+630 silly addNameRange     '3.0.0',
+630 silly addNameRange     '3.0.1',
+630 silly addNameRange     '3.0.2',
+630 silly addNameRange     '3.0.3',
+630 silly addNameRange     '3.0.4',
+630 silly addNameRange     '3.0.5',
+630 silly addNameRange     '3.0.6',
+630 silly addNameRange     '3.1.0',
+630 silly addNameRange     '3.1.1',
+630 silly addNameRange     '3.1.2',
+630 silly addNameRange     '3.1.3',
+630 silly addNameRange     '3.1.4',
+630 silly addNameRange     '3.1.5',
+630 silly addNameRange     '3.2.0',
+630 silly addNameRange     '3.2.1',
+630 silly addNameRange     '3.2.2',
+630 silly addNameRange     '3.3.0',
+630 silly addNameRange     '3.3.1',
+630 silly addNameRange     '3.3.2',
+630 silly addNameRange     '3.3.3',
+630 silly addNameRange     '3.3.4',
+630 silly addNameRange     '3.3.5',
+630 silly addNameRange     '3.4.0',
+630 silly addNameRange     '3.4.1',
+630 silly addNameRange     '3.4.2',
+630 silly addNameRange     '3.4.3',
+630 silly addNameRange     '3.4.4',
+630 silly addNameRange     '2.11.0',
+630 silly addNameRange     '3.4.5',
+630 silly addNameRange     '3.4.6',
+630 silly addNameRange     '3.4.7' ] ]
+631 silly addNamed bluebird@3.4.7
+632 verbose addNamed "3.4.7" is a plain semver version for bluebird
+633 silly resolveWithNewModule chalk@1.1.3 checking installable status
+634 silly cache add args [ 'chalk@^1.1.3', null ]
+635 verbose cache add spec chalk@^1.1.3
+636 silly cache add parsed spec Result {
+636 silly cache add   raw: 'chalk@^1.1.3',
+636 silly cache add   scope: null,
+636 silly cache add   name: 'chalk',
+636 silly cache add   rawSpec: '^1.1.3',
+636 silly cache add   spec: '>=1.1.3 <2.0.0',
+636 silly cache add   type: 'range' }
+637 silly addNamed chalk@>=1.1.3 <2.0.0
+638 verbose addNamed ">=1.1.3 <2.0.0" is a valid semver range for chalk
+639 silly addNameRange { name: 'chalk', range: '>=1.1.3 <2.0.0', hasData: false }
+640 silly mapToRegistry name chalk
+641 silly mapToRegistry using default registry
+642 silly mapToRegistry registry https://registry.npmjs.org/
+643 silly mapToRegistry uri https://registry.npmjs.org/chalk
+644 verbose addNameRange registry:https://registry.npmjs.org/chalk not in flight; fetching
+645 silly resolveWithNewModule cheerio@0.20.0 checking installable status
+646 silly cache add args [ 'cheerio@^0.20.0', null ]
+647 verbose cache add spec cheerio@^0.20.0
+648 silly cache add parsed spec Result {
+648 silly cache add   raw: 'cheerio@^0.20.0',
+648 silly cache add   scope: null,
+648 silly cache add   name: 'cheerio',
+648 silly cache add   rawSpec: '^0.20.0',
+648 silly cache add   spec: '>=0.20.0 <0.21.0',
+648 silly cache add   type: 'range' }
+649 silly addNamed cheerio@>=0.20.0 <0.21.0
+650 verbose addNamed ">=0.20.0 <0.21.0" is a valid semver range for cheerio
+651 silly addNameRange { name: 'cheerio', range: '>=0.20.0 <0.21.0', hasData: false }
+652 silly mapToRegistry name cheerio
+653 silly mapToRegistry using default registry
+654 silly mapToRegistry registry https://registry.npmjs.org/
+655 silly mapToRegistry uri https://registry.npmjs.org/cheerio
+656 verbose addNameRange registry:https://registry.npmjs.org/cheerio not in flight; fetching
+657 silly resolveWithNewModule js-yaml@3.8.1 checking installable status
+658 silly cache add args [ 'js-yaml@^3.6.1', null ]
+659 verbose cache add spec js-yaml@^3.6.1
+660 silly cache add parsed spec Result {
+660 silly cache add   raw: 'js-yaml@^3.6.1',
+660 silly cache add   scope: null,
+660 silly cache add   name: 'js-yaml',
+660 silly cache add   rawSpec: '^3.6.1',
+660 silly cache add   spec: '>=3.6.1 <4.0.0',
+660 silly cache add   type: 'range' }
+661 silly addNamed js-yaml@>=3.6.1 <4.0.0
+662 verbose addNamed ">=3.6.1 <4.0.0" is a valid semver range for js-yaml
+663 silly addNameRange { name: 'js-yaml', range: '>=3.6.1 <4.0.0', hasData: false }
+664 silly mapToRegistry name js-yaml
+665 silly mapToRegistry using default registry
+666 silly mapToRegistry registry https://registry.npmjs.org/
+667 silly mapToRegistry uri https://registry.npmjs.org/js-yaml
+668 verbose addNameRange registry:https://registry.npmjs.org/js-yaml not in flight; fetching
+669 silly get cb [ 304, undefined ]
+670 verbose etag https://registry.npmjs.org/hexo-util from cache
+671 verbose get saving hexo-util to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\hexo-util\.cache.json
+672 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+673 silly get cb [ 304, undefined ]
+674 verbose etag https://registry.npmjs.org/hexo-i18n from cache
+675 verbose get saving hexo-i18n to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\hexo-i18n\.cache.json
+676 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+677 silly get cb [ 304, undefined ]
+678 verbose etag https://registry.npmjs.org/lodash from cache
+679 verbose get saving lodash to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\lodash\.cache.json
+680 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+681 silly get cb [ 304, undefined ]
+682 verbose etag https://registry.npmjs.org/tildify from cache
+683 verbose get saving tildify to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\tildify\.cache.json
+684 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+685 silly get cb [ 304, undefined ]
+686 verbose etag https://registry.npmjs.org/titlecase from cache
+687 verbose get saving titlecase to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\titlecase\.cache.json
+688 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+689 silly get cb [ 304, undefined ]
+690 verbose etag https://registry.npmjs.org/hexo-front-matter from cache
+691 verbose get saving hexo-front-matter to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\hexo-front-matter\.cache.json
+692 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+693 silly get cb [ 304, undefined ]
+694 verbose etag https://registry.npmjs.org/moment-timezone from cache
+695 verbose get saving moment-timezone to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\moment-timezone\.cache.json
+696 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+697 silly get cb [ 304, undefined ]
+698 verbose etag https://registry.npmjs.org/minimatch from cache
+699 verbose get saving minimatch to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\minimatch\.cache.json
+700 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+701 silly get cb [ 304, undefined ]
+702 verbose etag https://registry.npmjs.org/hexo-log from cache
+703 verbose get saving hexo-log to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\hexo-log\.cache.json
+704 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+705 silly get cb [ 304, undefined ]
+706 verbose etag https://registry.npmjs.org/pretty-hrtime from cache
+707 verbose get saving pretty-hrtime to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\pretty-hrtime\.cache.json
+708 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+709 silly get cb [ 304, undefined ]
+710 verbose etag https://registry.npmjs.org/archy from cache
+711 verbose get saving archy to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\archy\.cache.json
+712 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+713 silly get cb [ 304, undefined ]
+714 verbose etag https://registry.npmjs.org/strip-indent from cache
+715 verbose get saving strip-indent to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\strip-indent\.cache.json
+716 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+717 silly get cb [ 304, undefined ]
+718 verbose etag https://registry.npmjs.org/text-table from cache
+719 verbose get saving text-table to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\text-table\.cache.json
+720 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+721 silly get cb [ 304, undefined ]
+722 verbose etag https://registry.npmjs.org/moment from cache
+723 verbose get saving moment to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\moment\.cache.json
+724 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+725 silly get cb [ 304, undefined ]
+726 verbose etag https://registry.npmjs.org/nunjucks from cache
+727 verbose get saving nunjucks to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\nunjucks\.cache.json
+728 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+729 silly resolveWithNewModule hexo-fs@0.1.6 checking installable status
+730 silly cache add args [ 'hexo-fs@^0.1.5', null ]
+731 verbose cache add spec hexo-fs@^0.1.5
+732 silly cache add parsed spec Result {
+732 silly cache add   raw: 'hexo-fs@^0.1.5',
+732 silly cache add   scope: null,
+732 silly cache add   name: 'hexo-fs',
+732 silly cache add   rawSpec: '^0.1.5',
+732 silly cache add   spec: '>=0.1.5 <0.2.0',
+732 silly cache add   type: 'range' }
+733 silly addNamed hexo-fs@>=0.1.5 <0.2.0
+734 verbose addNamed ">=0.1.5 <0.2.0" is a valid semver range for hexo-fs
+735 silly addNameRange { name: 'hexo-fs', range: '>=0.1.5 <0.2.0', hasData: false }
+736 silly mapToRegistry name hexo-fs
+737 silly mapToRegistry using default registry
+738 silly mapToRegistry registry https://registry.npmjs.org/
+739 silly mapToRegistry uri https://registry.npmjs.org/hexo-fs
+740 verbose addNameRange registry:https://registry.npmjs.org/hexo-fs not in flight; fetching
+741 silly resolveWithNewModule hexo-cli@1.0.2 checking installable status
+742 silly cache add args [ 'hexo-cli@^1.0.2', null ]
+743 verbose cache add spec hexo-cli@^1.0.2
+744 silly cache add parsed spec Result {
+744 silly cache add   raw: 'hexo-cli@^1.0.2',
+744 silly cache add   scope: null,
+744 silly cache add   name: 'hexo-cli',
+744 silly cache add   rawSpec: '^1.0.2',
+744 silly cache add   spec: '>=1.0.2 <2.0.0',
+744 silly cache add   type: 'range' }
+745 silly addNamed hexo-cli@>=1.0.2 <2.0.0
+746 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for hexo-cli
+747 silly addNameRange { name: 'hexo-cli', range: '>=1.0.2 <2.0.0', hasData: false }
+748 silly mapToRegistry name hexo-cli
+749 silly mapToRegistry using default registry
+750 silly mapToRegistry registry https://registry.npmjs.org/
+751 silly mapToRegistry uri https://registry.npmjs.org/hexo-cli
+752 verbose addNameRange registry:https://registry.npmjs.org/hexo-cli not in flight; fetching
+753 silly get cb [ 304, undefined ]
+754 verbose etag https://registry.npmjs.org/abbrev from cache
+755 verbose get saving abbrev to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\abbrev\.cache.json
+756 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+757 silly get cb [ 304, undefined ]
+758 verbose etag https://registry.npmjs.org/swig-extras from cache
+759 verbose get saving swig-extras to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\swig-extras\.cache.json
+760 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+761 silly get cb [ 304, undefined ]
+762 verbose etag https://registry.npmjs.org/warehouse from cache
+763 verbose get saving warehouse to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\warehouse\.cache.json
+764 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+765 silly get cb [ 304, undefined ]
+766 verbose etag https://registry.npmjs.org/swig from cache
+767 verbose get saving swig to C:\Users\hy\AppData\Roaming\npm-cache\registry.npmjs.org\swig\.cache.json
+768 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+769 verbose get https://registry.npmjs.org/chalk not expired, no request
+770 silly addNameRange number 2 { name: 'chalk', range: '>=1.1.3 <2.0.0', hasData: true }
+771 silly addNameRange versions [ 'chalk',
+771 silly addNameRange   [ '0.1.0',
+771 silly addNameRange     '0.1.1',
+771 silly addNameRange     '0.2.0',
+771 silly addNameRange     '0.2.1',
+771 silly addNameRange     '0.3.0',
+771 silly addNameRange     '0.4.0',
+771 silly addNameRange     '0.5.0',
+771 silly addNameRange     '0.5.1',
+771 silly addNameRange     '1.0.0',
+771 silly addNameRange     '1.1.0',
+771 silly addNameRange     '1.1.1',
+771 silly addNameRange     '1.1.2',
+771 silly addNameRange     '1.1.3' ] ]
+772 silly addNamed chalk@1.1.3
+773 verbose addNamed "1.1.3" is a plain semver version for chalk
+774 verbose get https://registry.npmjs.org/cheerio not expired, no request
+775 silly addNameRange number 2 { name: 'cheerio', range: '>=0.20.0 <0.21.0', hasData: true }
+776 silly addNameRange versions [ 'cheerio',
+776 silly addNameRange   [ '0.0.1',
+776 silly addNameRange     '0.0.2',
+776 silly addNameRange     '0.0.3',
+776 silly addNameRange     '0.0.4',
+776 silly addNameRange     '0.1.1',
+776 silly addNameRange     '0.1.2',
+776 silly addNameRange     '0.1.3',
+776 silly addNameRange     '0.1.4',
+776 silly addNameRange     '0.1.5',
+776 silly addNameRange     '0.2.0',
+776 silly addNameRange     '0.2.1',
+776 silly addNameRange     '0.2.2',
+776 silly addNameRange     '0.3.0',
+776 silly addNameRange     '0.3.1',
+776 silly addNameRange     '0.3.2',
+776 silly addNameRange     '0.4.0',
+776 silly addNameRange     '0.4.1',
+776 silly addNameRange     '0.4.2',
+776 silly addNameRange     '0.5.0',
+776 silly addNameRange     '0.5.1',
+776 silly addNameRange     '0.5.2',
+776 silly addNameRange     '0.6.0',
+776 silly addNameRange     '0.6.1',
+776 silly addNameRange     '0.6.2',
+776 silly addNameRange     '0.7.0',
+776 silly addNameRange     '0.8.0',
+776 silly addNameRange     '0.8.1',
+776 silly addNameRange     '0.8.2',
+776 silly addNameRange     '0.8.3',
+776 silly addNameRange     '0.9.0',
+776 silly addNameRange     '0.9.1',
+776 silly addNameRange     '0.9.2',
+776 silly addNameRange     '0.10.0',
+776 silly addNameRange     '0.10.1',
+776 silly addNameRange     '0.10.2',
+776 silly addNameRange     '0.10.3',
+776 silly addNameRange     '0.10.4',
+776 silly addNameRange     '0.10.5',
+776 silly addNameRange     '0.10.6',
+776 silly addNameRange     '0.10.7',
+776 silly addNameRange     '0.10.8',
+776 silly addNameRange     '0.11.0',
+776 silly addNameRange     '0.12.0',
+776 silly addNameRange     '0.12.1',
+776 silly addNameRange     '0.12.2',
+776 silly addNameRange     '0.12.3',
+776 silly addNameRange     '0.12.4',
+776 silly addNameRange     '0.13.0',
+776 silly addNameRange     '0.13.1',
+776 silly addNameRange     '0.14.0',
+776 silly addNameRange     '0.15.0',
+776 silly addNameRange     '0.16.0',
+776 silly addNameRange     '0.17.0',
+776 silly addNameRange     '0.18.0',
+776 silly addNameRange     '0.19.0',
+776 silly addNameRange     '0.20.0',
+776 silly addNameRange     '0.22.0' ] ]
+777 silly addNamed cheerio@0.20.0
+778 verbose addNamed "0.20.0" is a plain semver version for cheerio
+779 verbose get https://registry.npmjs.org/js-yaml not expired, no request
+780 silly addNameRange number 2 { name: 'js-yaml', range: '>=3.6.1 <4.0.0', hasData: true }
+781 silly addNameRange versions [ 'js-yaml',
+781 silly addNameRange   [ '0.2.0',
+781 silly addNameRange     '0.2.1',
+781 silly addNameRange     '0.2.2',
+781 silly addNameRange     '0.3.0',
+781 silly addNameRange     '0.3.1',
+781 silly addNameRange     '0.3.2',
+781 silly addNameRange     '0.3.3',
+781 silly addNameRange     '0.3.4',
+781 silly addNameRange     '0.3.5',
+781 silly addNameRange     '0.3.6',
+781 silly addNameRange     '0.3.7',
+781 silly addNameRange     '1.0.0',
+781 silly addNameRange     '1.0.1',
+781 silly addNameRange     '1.0.2',
+781 silly addNameRange     '1.0.3',
+781 silly addNameRange     '2.0.0',
+781 silly addNameRange     '2.0.1',
+781 silly addNameRange     '2.0.2',
+781 silly addNameRange     '2.0.3',
+781 silly addNameRange     '2.0.4',
+781 silly addNameRange     '2.0.5',
+781 silly addNameRange     '2.1.0',
+781 silly addNameRange     '2.1.1',
+781 silly addNameRange     '2.1.2',
+781 silly addNameRange     '2.1.3',
+781 silly addNameRange     '3.0.0',
+781 silly addNameRange     '3.0.1',
+781 silly addNameRange     '3.0.2',
+781 silly addNameRange     '3.1.0',
+781 silly addNameRange     '3.2.1',
+781 silly addNameRange     '3.2.2',
+781 silly addNameRange     '3.2.3',
+781 silly addNameRange     '3.2.4',
+781 silly addNameRange     '3.2.5',
+781 silly addNameRange     '3.2.6',
+781 silly addNameRange     '3.2.7',
+781 silly addNameRange     '3.3.0',
+781 silly addNameRange     '3.3.1',
+781 silly addNameRange     '3.4.0',
+781 silly addNameRange     '3.4.1',
+781 silly addNameRange     '3.4.2',
+781 silly addNameRange     '3.4.3',
+781 silly addNameRange     '3.4.4',
+781 silly addNameRange     '3.4.5',
+781 silly addNameRange     '3.4.6',
+781 silly addNameRange     '3.5.0',
+781 silly addNameRange     '3.5.1',
+781 silly addNameRange     '3.5.2',
+781 silly addNameRange     '3.5.3',
+781 silly addNameRange     '3.5.4',
+781 silly addNameRange     '3.5.5',
+781 silly addNameRange     '3.6.0',
+781 silly addNameRange     '3.6.1',
+781 silly addNameRange     '3.7.0',
+781 silly addNameRange     '3.8.0',
+781 silly addNameRange     '3.8.1' ] ]
+782 silly addNamed js-yaml@3.8.1
+783 verbose addNamed "3.8.1" is a plain semver version for js-yaml
+784 silly mapToRegistry name js-yaml
+785 silly mapToRegistry using default registry
+786 silly mapToRegistry registry https://registry.npmjs.org/
+787 silly mapToRegistry uri https://registry.npmjs.org/js-yaml
+788 verbose addRemoteTarball https://registry.npmjs.org/js-yaml/-/js-yaml-3.8.1.tgz not in flight; adding
+789 verbose addRemoteTarball [ 'https://registry.npmjs.org/js-yaml/-/js-yaml-3.8.1.tgz',
+789 verbose addRemoteTarball   '782ba50200be7b9e5a8537001b7804db3ad02628' ]
+790 silly cache afterAdd bluebird@3.4.7
+791 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\bluebird\3.4.7\package\package.json not in flight; writing
+792 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+793 verbose get https://registry.npmjs.org/hexo-fs not expired, no request
+794 silly addNameRange number 2 { name: 'hexo-fs', range: '>=0.1.5 <0.2.0', hasData: true }
+795 silly addNameRange versions [ 'hexo-fs',
+795 silly addNameRange   [ '0.0.1',
+795 silly addNameRange     '0.0.2',
+795 silly addNameRange     '0.0.3',
+795 silly addNameRange     '0.0.4',
+795 silly addNameRange     '0.0.5',
+795 silly addNameRange     '0.0.6',
+795 silly addNameRange     '0.0.7',
+795 silly addNameRange     '0.0.8',
+795 silly addNameRange     '0.1.0',
+795 silly addNameRange     '0.1.1',
+795 silly addNameRange     '0.1.2',
+795 silly addNameRange     '0.1.3',
+795 silly addNameRange     '0.1.4',
+795 silly addNameRange     '0.1.5',
+795 silly addNameRange     '0.1.6' ] ]
+796 silly addNamed hexo-fs@0.1.6
+797 verbose addNamed "0.1.6" is a plain semver version for hexo-fs
+798 verbose get https://registry.npmjs.org/hexo-cli not expired, no request
+799 silly addNameRange number 2 { name: 'hexo-cli', range: '>=1.0.2 <2.0.0', hasData: true }
+800 silly addNameRange versions [ 'hexo-cli',
+800 silly addNameRange   [ '0.0.1',
+800 silly addNameRange     '0.1.0',
+800 silly addNameRange     '0.1.1',
+800 silly addNameRange     '0.1.2',
+800 silly addNameRange     '0.1.3',
+800 silly addNameRange     '0.1.4',
+800 silly addNameRange     '0.1.5',
+800 silly addNameRange     '0.1.6',
+800 silly addNameRange     '0.1.7',
+800 silly addNameRange     '0.1.8',
+800 silly addNameRange     '0.1.9',
+800 silly addNameRange     '0.2.0',
+800 silly addNameRange     '0.2.1',
+800 silly addNameRange     '1.0.0',
+800 silly addNameRange     '1.0.1',
+800 silly addNameRange     '1.0.2' ] ]
+801 silly addNamed hexo-cli@1.0.2
+802 verbose addNamed "1.0.2" is a plain semver version for hexo-cli
+803 silly resolveWithNewModule hexo-util@0.6.0 checking installable status
+804 silly cache add args [ 'hexo-util@^0.6.0', null ]
+805 verbose cache add spec hexo-util@^0.6.0
+806 silly cache add parsed spec Result {
+806 silly cache add   raw: 'hexo-util@^0.6.0',
+806 silly cache add   scope: null,
+806 silly cache add   name: 'hexo-util',
+806 silly cache add   rawSpec: '^0.6.0',
+806 silly cache add   spec: '>=0.6.0 <0.7.0',
+806 silly cache add   type: 'range' }
+807 silly addNamed hexo-util@>=0.6.0 <0.7.0
+808 verbose addNamed ">=0.6.0 <0.7.0" is a valid semver range for hexo-util
+809 silly addNameRange { name: 'hexo-util', range: '>=0.6.0 <0.7.0', hasData: false }
+810 silly mapToRegistry name hexo-util
+811 silly mapToRegistry using default registry
+812 silly mapToRegistry registry https://registry.npmjs.org/
+813 silly mapToRegistry uri https://registry.npmjs.org/hexo-util
+814 verbose addNameRange registry:https://registry.npmjs.org/hexo-util not in flight; fetching
+815 silly resolveWithNewModule hexo-i18n@0.2.1 checking installable status
+816 silly cache add args [ 'hexo-i18n@^0.2.1', null ]
+817 verbose cache add spec hexo-i18n@^0.2.1
+818 silly cache add parsed spec Result {
+818 silly cache add   raw: 'hexo-i18n@^0.2.1',
+818 silly cache add   scope: null,
+818 silly cache add   name: 'hexo-i18n',
+818 silly cache add   rawSpec: '^0.2.1',
+818 silly cache add   spec: '>=0.2.1 <0.3.0',
+818 silly cache add   type: 'range' }
+819 silly addNamed hexo-i18n@>=0.2.1 <0.3.0
+820 verbose addNamed ">=0.2.1 <0.3.0" is a valid semver range for hexo-i18n
+821 silly addNameRange { name: 'hexo-i18n', range: '>=0.2.1 <0.3.0', hasData: false }
+822 silly mapToRegistry name hexo-i18n
+823 silly mapToRegistry using default registry
+824 silly mapToRegistry registry https://registry.npmjs.org/
+825 silly mapToRegistry uri https://registry.npmjs.org/hexo-i18n
+826 verbose addNameRange registry:https://registry.npmjs.org/hexo-i18n not in flight; fetching
+827 silly resolveWithNewModule lodash@4.17.4 checking installable status
+828 silly cache add args [ 'lodash@^4.13.1', null ]
+829 verbose cache add spec lodash@^4.13.1
+830 silly cache add parsed spec Result {
+830 silly cache add   raw: 'lodash@^4.13.1',
+830 silly cache add   scope: null,
+830 silly cache add   name: 'lodash',
+830 silly cache add   rawSpec: '^4.13.1',
+830 silly cache add   spec: '>=4.13.1 <5.0.0',
+830 silly cache add   type: 'range' }
+831 silly addNamed lodash@>=4.13.1 <5.0.0
+832 verbose addNamed ">=4.13.1 <5.0.0" is a valid semver range for lodash
+833 silly addNameRange { name: 'lodash', range: '>=4.13.1 <5.0.0', hasData: false }
+834 silly mapToRegistry name lodash
+835 silly mapToRegistry using default registry
+836 silly mapToRegistry registry https://registry.npmjs.org/
+837 silly mapToRegistry uri https://registry.npmjs.org/lodash
+838 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+839 silly resolveWithNewModule titlecase@1.1.2 checking installable status
+840 silly cache add args [ 'titlecase@^1.1.2', null ]
+841 verbose cache add spec titlecase@^1.1.2
+842 silly cache add parsed spec Result {
+842 silly cache add   raw: 'titlecase@^1.1.2',
+842 silly cache add   scope: null,
+842 silly cache add   name: 'titlecase',
+842 silly cache add   rawSpec: '^1.1.2',
+842 silly cache add   spec: '>=1.1.2 <2.0.0',
+842 silly cache add   type: 'range' }
+843 silly addNamed titlecase@>=1.1.2 <2.0.0
+844 verbose addNamed ">=1.1.2 <2.0.0" is a valid semver range for titlecase
+845 silly addNameRange { name: 'titlecase', range: '>=1.1.2 <2.0.0', hasData: false }
+846 silly mapToRegistry name titlecase
+847 silly mapToRegistry using default registry
+848 silly mapToRegistry registry https://registry.npmjs.org/
+849 silly mapToRegistry uri https://registry.npmjs.org/titlecase
+850 verbose addNameRange registry:https://registry.npmjs.org/titlecase not in flight; fetching
+851 silly resolveWithNewModule hexo-front-matter@0.2.3 checking installable status
+852 silly cache add args [ 'hexo-front-matter@^0.2.2', null ]
+853 verbose cache add spec hexo-front-matter@^0.2.2
+854 silly cache add parsed spec Result {
+854 silly cache add   raw: 'hexo-front-matter@^0.2.2',
+854 silly cache add   scope: null,
+854 silly cache add   name: 'hexo-front-matter',
+854 silly cache add   rawSpec: '^0.2.2',
+854 silly cache add   spec: '>=0.2.2 <0.3.0',
+854 silly cache add   type: 'range' }
+855 silly addNamed hexo-front-matter@>=0.2.2 <0.3.0
+856 verbose addNamed ">=0.2.2 <0.3.0" is a valid semver range for hexo-front-matter
+857 silly addNameRange { name: 'hexo-front-matter',
+857 silly addNameRange   range: '>=0.2.2 <0.3.0',
+857 silly addNameRange   hasData: false }
+858 silly mapToRegistry name hexo-front-matter
+859 silly mapToRegistry using default registry
+860 silly mapToRegistry registry https://registry.npmjs.org/
+861 silly mapToRegistry uri https://registry.npmjs.org/hexo-front-matter
+862 verbose addNameRange registry:https://registry.npmjs.org/hexo-front-matter not in flight; fetching
+863 silly resolveWithNewModule tildify@1.2.0 checking installable status
+864 silly cache add args [ 'tildify@^1.2.0', null ]
+865 verbose cache add spec tildify@^1.2.0
+866 silly cache add parsed spec Result {
+866 silly cache add   raw: 'tildify@^1.2.0',
+866 silly cache add   scope: null,
+866 silly cache add   name: 'tildify',
+866 silly cache add   rawSpec: '^1.2.0',
+866 silly cache add   spec: '>=1.2.0 <2.0.0',
+866 silly cache add   type: 'range' }
+867 silly addNamed tildify@>=1.2.0 <2.0.0
+868 verbose addNamed ">=1.2.0 <2.0.0" is a valid semver range for tildify
+869 silly addNameRange { name: 'tildify', range: '>=1.2.0 <2.0.0', hasData: false }
+870 silly mapToRegistry name tildify
+871 silly mapToRegistry using default registry
+872 silly mapToRegistry registry https://registry.npmjs.org/
+873 silly mapToRegistry uri https://registry.npmjs.org/tildify
+874 verbose addNameRange registry:https://registry.npmjs.org/tildify not in flight; fetching
+875 silly resolveWithNewModule moment-timezone@0.5.10 checking installable status
+876 silly cache add args [ 'moment-timezone@^0.5.4', null ]
+877 verbose cache add spec moment-timezone@^0.5.4
+878 silly cache add parsed spec Result {
+878 silly cache add   raw: 'moment-timezone@^0.5.4',
+878 silly cache add   scope: null,
+878 silly cache add   name: 'moment-timezone',
+878 silly cache add   rawSpec: '^0.5.4',
+878 silly cache add   spec: '>=0.5.4 <0.6.0',
+878 silly cache add   type: 'range' }
+879 silly addNamed moment-timezone@>=0.5.4 <0.6.0
+880 verbose addNamed ">=0.5.4 <0.6.0" is a valid semver range for moment-timezone
+881 silly addNameRange { name: 'moment-timezone',
+881 silly addNameRange   range: '>=0.5.4 <0.6.0',
+881 silly addNameRange   hasData: false }
+882 silly mapToRegistry name moment-timezone
+883 silly mapToRegistry using default registry
+884 silly mapToRegistry registry https://registry.npmjs.org/
+885 silly mapToRegistry uri https://registry.npmjs.org/moment-timezone
+886 verbose addNameRange registry:https://registry.npmjs.org/moment-timezone not in flight; fetching
+887 silly resolveWithNewModule minimatch@3.0.3 checking installable status
+888 silly cache add args [ 'minimatch@^3.0.0', null ]
+889 verbose cache add spec minimatch@^3.0.0
+890 silly cache add parsed spec Result {
+890 silly cache add   raw: 'minimatch@^3.0.0',
+890 silly cache add   scope: null,
+890 silly cache add   name: 'minimatch',
+890 silly cache add   rawSpec: '^3.0.0',
+890 silly cache add   spec: '>=3.0.0 <4.0.0',
+890 silly cache add   type: 'range' }
+891 silly addNamed minimatch@>=3.0.0 <4.0.0
+892 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for minimatch
+893 silly addNameRange { name: 'minimatch', range: '>=3.0.0 <4.0.0', hasData: false }
+894 silly mapToRegistry name minimatch
+895 silly mapToRegistry using default registry
+896 silly mapToRegistry registry https://registry.npmjs.org/
+897 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+898 verbose addNameRange registry:https://registry.npmjs.org/minimatch not in flight; fetching
+899 silly resolveWithNewModule hexo-log@0.1.2 checking installable status
+900 silly cache add args [ 'hexo-log@^0.1.2', null ]
+901 verbose cache add spec hexo-log@^0.1.2
+902 silly cache add parsed spec Result {
+902 silly cache add   raw: 'hexo-log@^0.1.2',
+902 silly cache add   scope: null,
+902 silly cache add   name: 'hexo-log',
+902 silly cache add   rawSpec: '^0.1.2',
+902 silly cache add   spec: '>=0.1.2 <0.2.0',
+902 silly cache add   type: 'range' }
+903 silly addNamed hexo-log@>=0.1.2 <0.2.0
+904 verbose addNamed ">=0.1.2 <0.2.0" is a valid semver range for hexo-log
+905 silly addNameRange { name: 'hexo-log', range: '>=0.1.2 <0.2.0', hasData: false }
+906 silly mapToRegistry name hexo-log
+907 silly mapToRegistry using default registry
+908 silly mapToRegistry registry https://registry.npmjs.org/
+909 silly mapToRegistry uri https://registry.npmjs.org/hexo-log
+910 verbose addNameRange registry:https://registry.npmjs.org/hexo-log not in flight; fetching
+911 silly resolveWithNewModule pretty-hrtime@1.0.3 checking installable status
+912 silly cache add args [ 'pretty-hrtime@^1.0.2', null ]
+913 verbose cache add spec pretty-hrtime@^1.0.2
+914 silly cache add parsed spec Result {
+914 silly cache add   raw: 'pretty-hrtime@^1.0.2',
+914 silly cache add   scope: null,
+914 silly cache add   name: 'pretty-hrtime',
+914 silly cache add   rawSpec: '^1.0.2',
+914 silly cache add   spec: '>=1.0.2 <2.0.0',
+914 silly cache add   type: 'range' }
+915 silly addNamed pretty-hrtime@>=1.0.2 <2.0.0
+916 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for pretty-hrtime
+917 silly addNameRange { name: 'pretty-hrtime',
+917 silly addNameRange   range: '>=1.0.2 <2.0.0',
+917 silly addNameRange   hasData: false }
+918 silly mapToRegistry name pretty-hrtime
+919 silly mapToRegistry using default registry
+920 silly mapToRegistry registry https://registry.npmjs.org/
+921 silly mapToRegistry uri https://registry.npmjs.org/pretty-hrtime
+922 verbose addNameRange registry:https://registry.npmjs.org/pretty-hrtime not in flight; fetching
+923 silly resolveWithNewModule strip-indent@1.0.1 checking installable status
+924 silly cache add args [ 'strip-indent@^1.0.1', null ]
+925 verbose cache add spec strip-indent@^1.0.1
+926 silly cache add parsed spec Result {
+926 silly cache add   raw: 'strip-indent@^1.0.1',
+926 silly cache add   scope: null,
+926 silly cache add   name: 'strip-indent',
+926 silly cache add   rawSpec: '^1.0.1',
+926 silly cache add   spec: '>=1.0.1 <2.0.0',
+926 silly cache add   type: 'range' }
+927 silly addNamed strip-indent@>=1.0.1 <2.0.0
+928 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for strip-indent
+929 silly addNameRange { name: 'strip-indent', range: '>=1.0.1 <2.0.0', hasData: false }
+930 silly mapToRegistry name strip-indent
+931 silly mapToRegistry using default registry
+932 silly mapToRegistry registry https://registry.npmjs.org/
+933 silly mapToRegistry uri https://registry.npmjs.org/strip-indent
+934 verbose addNameRange registry:https://registry.npmjs.org/strip-indent not in flight; fetching
+935 silly resolveWithNewModule archy@1.0.0 checking installable status
+936 silly cache add args [ 'archy@^1.0.0', null ]
+937 verbose cache add spec archy@^1.0.0
+938 silly cache add parsed spec Result {
+938 silly cache add   raw: 'archy@^1.0.0',
+938 silly cache add   scope: null,
+938 silly cache add   name: 'archy',
+938 silly cache add   rawSpec: '^1.0.0',
+938 silly cache add   spec: '>=1.0.0 <2.0.0',
+938 silly cache add   type: 'range' }
+939 silly addNamed archy@>=1.0.0 <2.0.0
+940 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for archy
+941 silly addNameRange { name: 'archy', range: '>=1.0.0 <2.0.0', hasData: false }
+942 silly mapToRegistry name archy
+943 silly mapToRegistry using default registry
+944 silly mapToRegistry registry https://registry.npmjs.org/
+945 silly mapToRegistry uri https://registry.npmjs.org/archy
+946 verbose addNameRange registry:https://registry.npmjs.org/archy not in flight; fetching
+947 silly resolveWithNewModule text-table@0.2.0 checking installable status
+948 silly cache add args [ 'text-table@^0.2.0', null ]
+949 verbose cache add spec text-table@^0.2.0
+950 silly cache add parsed spec Result {
+950 silly cache add   raw: 'text-table@^0.2.0',
+950 silly cache add   scope: null,
+950 silly cache add   name: 'text-table',
+950 silly cache add   rawSpec: '^0.2.0',
+950 silly cache add   spec: '>=0.2.0 <0.3.0',
+950 silly cache add   type: 'range' }
+951 silly addNamed text-table@>=0.2.0 <0.3.0
+952 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for text-table
+953 silly addNameRange { name: 'text-table', range: '>=0.2.0 <0.3.0', hasData: false }
+954 silly mapToRegistry name text-table
+955 silly mapToRegistry using default registry
+956 silly mapToRegistry registry https://registry.npmjs.org/
+957 silly mapToRegistry uri https://registry.npmjs.org/text-table
+958 verbose addNameRange registry:https://registry.npmjs.org/text-table not in flight; fetching
+959 silly resolveWithNewModule moment@2.13.0 checking installable status
+960 silly cache add args [ 'moment@~2.13.0', null ]
+961 verbose cache add spec moment@~2.13.0
+962 silly cache add parsed spec Result {
+962 silly cache add   raw: 'moment@~2.13.0',
+962 silly cache add   scope: null,
+962 silly cache add   name: 'moment',
+962 silly cache add   rawSpec: '~2.13.0',
+962 silly cache add   spec: '>=2.13.0 <2.14.0',
+962 silly cache add   type: 'range' }
+963 silly addNamed moment@>=2.13.0 <2.14.0
+964 verbose addNamed ">=2.13.0 <2.14.0" is a valid semver range for moment
+965 silly addNameRange { name: 'moment', range: '>=2.13.0 <2.14.0', hasData: false }
+966 silly mapToRegistry name moment
+967 silly mapToRegistry using default registry
+968 silly mapToRegistry registry https://registry.npmjs.org/
+969 silly mapToRegistry uri https://registry.npmjs.org/moment
+970 verbose addNameRange registry:https://registry.npmjs.org/moment not in flight; fetching
+971 silly resolveWithNewModule nunjucks@2.5.2 checking installable status
+972 silly cache add args [ 'nunjucks@^2.4.2', null ]
+973 verbose cache add spec nunjucks@^2.4.2
+974 silly cache add parsed spec Result {
+974 silly cache add   raw: 'nunjucks@^2.4.2',
+974 silly cache add   scope: null,
+974 silly cache add   name: 'nunjucks',
+974 silly cache add   rawSpec: '^2.4.2',
+974 silly cache add   spec: '>=2.4.2 <3.0.0',
+974 silly cache add   type: 'range' }
+975 silly addNamed nunjucks@>=2.4.2 <3.0.0
+976 verbose addNamed ">=2.4.2 <3.0.0" is a valid semver range for nunjucks
+977 silly addNameRange { name: 'nunjucks', range: '>=2.4.2 <3.0.0', hasData: false }
+978 silly mapToRegistry name nunjucks
+979 silly mapToRegistry using default registry
+980 silly mapToRegistry registry https://registry.npmjs.org/
+981 silly mapToRegistry uri https://registry.npmjs.org/nunjucks
+982 verbose addNameRange registry:https://registry.npmjs.org/nunjucks not in flight; fetching
+983 silly resolveWithNewModule swig-extras@0.0.1 checking installable status
+984 silly cache add args [ 'swig-extras@0.0.1', null ]
+985 verbose cache add spec swig-extras@0.0.1
+986 silly cache add parsed spec Result {
+986 silly cache add   raw: 'swig-extras@0.0.1',
+986 silly cache add   scope: null,
+986 silly cache add   name: 'swig-extras',
+986 silly cache add   rawSpec: '0.0.1',
+986 silly cache add   spec: '0.0.1',
+986 silly cache add   type: 'version' }
+987 silly addNamed swig-extras@0.0.1
+988 verbose addNamed "0.0.1" is a plain semver version for swig-extras
+989 silly mapToRegistry name swig-extras
+990 silly mapToRegistry using default registry
+991 silly mapToRegistry registry https://registry.npmjs.org/
+992 silly mapToRegistry uri https://registry.npmjs.org/swig-extras
+993 verbose addNameVersion registry:https://registry.npmjs.org/swig-extras not in flight; fetching
+994 silly resolveWithNewModule abbrev@1.0.9 checking installable status
+995 silly cache add args [ 'abbrev@^1.0.7', null ]
+996 verbose cache add spec abbrev@^1.0.7
+997 silly cache add parsed spec Result {
+997 silly cache add   raw: 'abbrev@^1.0.7',
+997 silly cache add   scope: null,
+997 silly cache add   name: 'abbrev',
+997 silly cache add   rawSpec: '^1.0.7',
+997 silly cache add   spec: '>=1.0.7 <2.0.0',
+997 silly cache add   type: 'range' }
+998 silly addNamed abbrev@>=1.0.7 <2.0.0
+999 verbose addNamed ">=1.0.7 <2.0.0" is a valid semver range for abbrev
+1000 silly addNameRange { name: 'abbrev', range: '>=1.0.7 <2.0.0', hasData: false }
+1001 silly mapToRegistry name abbrev
+1002 silly mapToRegistry using default registry
+1003 silly mapToRegistry registry https://registry.npmjs.org/
+1004 silly mapToRegistry uri https://registry.npmjs.org/abbrev
+1005 verbose addNameRange registry:https://registry.npmjs.org/abbrev not in flight; fetching
+1006 silly resolveWithNewModule warehouse@2.2.0 checking installable status
+1007 silly cache add args [ 'warehouse@^2.2.0', null ]
+1008 verbose cache add spec warehouse@^2.2.0
+1009 silly cache add parsed spec Result {
+1009 silly cache add   raw: 'warehouse@^2.2.0',
+1009 silly cache add   scope: null,
+1009 silly cache add   name: 'warehouse',
+1009 silly cache add   rawSpec: '^2.2.0',
+1009 silly cache add   spec: '>=2.2.0 <3.0.0',
+1009 silly cache add   type: 'range' }
+1010 silly addNamed warehouse@>=2.2.0 <3.0.0
+1011 verbose addNamed ">=2.2.0 <3.0.0" is a valid semver range for warehouse
+1012 silly addNameRange { name: 'warehouse', range: '>=2.2.0 <3.0.0', hasData: false }
+1013 silly mapToRegistry name warehouse
+1014 silly mapToRegistry using default registry
+1015 silly mapToRegistry registry https://registry.npmjs.org/
+1016 silly mapToRegistry uri https://registry.npmjs.org/warehouse
+1017 verbose addNameRange registry:https://registry.npmjs.org/warehouse not in flight; fetching
+1018 silly resolveWithNewModule swig@1.4.2 checking installable status
+1019 silly cache add args [ 'swig@1.4.2', null ]
+1020 verbose cache add spec swig@1.4.2
+1021 silly cache add parsed spec Result {
+1021 silly cache add   raw: 'swig@1.4.2',
+1021 silly cache add   scope: null,
+1021 silly cache add   name: 'swig',
+1021 silly cache add   rawSpec: '1.4.2',
+1021 silly cache add   spec: '1.4.2',
+1021 silly cache add   type: 'version' }
+1022 silly addNamed swig@1.4.2
+1023 verbose addNamed "1.4.2" is a plain semver version for swig
+1024 silly mapToRegistry name swig
+1025 silly mapToRegistry using default registry
+1026 silly mapToRegistry registry https://registry.npmjs.org/
+1027 silly mapToRegistry uri https://registry.npmjs.org/swig
+1028 verbose addNameVersion registry:https://registry.npmjs.org/swig not in flight; fetching
+1029 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\bluebird\3.4.7\package\package.json written
+1030 silly cache afterAdd chalk@1.1.3
+1031 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\chalk\1.1.3\package\package.json not in flight; writing
+1032 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1033 silly cache afterAdd cheerio@0.20.0
+1034 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\cheerio\0.20.0\package\package.json not in flight; writing
+1035 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1036 verbose get https://registry.npmjs.org/hexo-util not expired, no request
+1037 silly addNameRange number 2 { name: 'hexo-util', range: '>=0.6.0 <0.7.0', hasData: true }
+1038 silly addNameRange versions [ 'hexo-util',
+1038 silly addNameRange   [ '0.0.1',
+1038 silly addNameRange     '0.0.2',
+1038 silly addNameRange     '0.1.0',
+1038 silly addNameRange     '0.1.1',
+1038 silly addNameRange     '0.1.2',
+1038 silly addNameRange     '0.1.3',
+1038 silly addNameRange     '0.1.4',
+1038 silly addNameRange     '0.1.5',
+1038 silly addNameRange     '0.1.6',
+1038 silly addNameRange     '0.1.7',
+1038 silly addNameRange     '0.2.0',
+1038 silly addNameRange     '0.2.1',
+1038 silly addNameRange     '0.3.0',
+1038 silly addNameRange     '0.4.0',
+1038 silly addNameRange     '0.4.1',
+1038 silly addNameRange     '0.5.0',
+1038 silly addNameRange     '0.5.1',
+1038 silly addNameRange     '0.5.2',
+1038 silly addNameRange     '0.5.3',
+1038 silly addNameRange     '0.6.0' ] ]
+1039 silly addNamed hexo-util@0.6.0
+1040 verbose addNamed "0.6.0" is a plain semver version for hexo-util
+1041 verbose get https://registry.npmjs.org/hexo-i18n not expired, no request
+1042 silly addNameRange number 2 { name: 'hexo-i18n', range: '>=0.2.1 <0.3.0', hasData: true }
+1043 silly addNameRange versions [ 'hexo-i18n', [ '0.0.1', '0.1.0', '0.2.0', '0.2.1' ] ]
+1044 silly addNamed hexo-i18n@0.2.1
+1045 verbose addNamed "0.2.1" is a plain semver version for hexo-i18n
+1046 info retry fetch attempt 1 at 09:07:18
+1047 info attempt registry request try #1 at 09:07:18
+1048 http fetch GET https://registry.npmjs.org/js-yaml/-/js-yaml-3.8.1.tgz
+1049 verbose get https://registry.npmjs.org/lodash not expired, no request
+1050 silly addNameRange number 2 { name: 'lodash', range: '>=4.13.1 <5.0.0', hasData: true }
+1051 silly addNameRange versions [ 'lodash',
+1051 silly addNameRange   [ '0.1.0',
+1051 silly addNameRange     '0.2.0',
+1051 silly addNameRange     '0.2.1',
+1051 silly addNameRange     '0.2.2',
+1051 silly addNameRange     '0.3.0',
+1051 silly addNameRange     '0.3.1',
+1051 silly addNameRange     '0.3.2',
+1051 silly addNameRange     '0.4.0',
+1051 silly addNameRange     '0.4.1',
+1051 silly addNameRange     '0.4.2',
+1051 silly addNameRange     '0.5.0-rc.1',
+1051 silly addNameRange     '0.5.0',
+1051 silly addNameRange     '0.5.1',
+1051 silly addNameRange     '0.5.2',
+1051 silly addNameRange     '0.6.0',
+1051 silly addNameRange     '0.6.1',
+1051 silly addNameRange     '0.7.0',
+1051 silly addNameRange     '0.8.0',
+1051 silly addNameRange     '0.8.1',
+1051 silly addNameRange     '0.8.2',
+1051 silly addNameRange     '0.9.0',
+1051 silly addNameRange     '0.9.1',
+1051 silly addNameRange     '0.9.2',
+1051 silly addNameRange     '0.10.0',
+1051 silly addNameRange     '1.0.0-rc.1',
+1051 silly addNameRange     '1.0.0-rc.2',
+1051 silly addNameRange     '1.0.0-rc.3',
+1051 silly addNameRange     '1.0.0',
+1051 silly addNameRange     '1.0.1',
+1051 silly addNameRange     '1.1.0',
+1051 silly addNameRange     '1.1.1',
+1051 silly addNameRange     '1.2.0',
+1051 silly addNameRange     '1.2.1',
+1051 silly addNameRange     '1.3.0',
+1051 silly addNameRange     '1.3.1',
+1051 silly addNameRange     '2.0.0',
+1051 silly addNameRange     '2.1.0',
+1051 silly addNameRange     '2.2.0',
+1051 silly addNameRange     '2.2.1',
+1051 silly addNameRange     '2.3.0',
+1051 silly addNameRange     '2.4.0',
+1051 silly addNameRange     '2.4.1',
+1051 silly addNameRange     '3.0.0',
+1051 silly addNameRange     '3.0.1',
+1051 silly addNameRange     '3.1.0',
+1051 silly addNameRange     '3.2.0',
+1051 silly addNameRange     '3.3.0',
+1051 silly addNameRange     '3.3.1',
+1051 silly addNameRange     '3.4.0',
+1051 silly addNameRange     '3.5.0',
+1051 silly addNameRange     '3.6.0',
+1051 silly addNameRange     '1.0.2',
+1051 silly addNameRange     '3.7.0',
+1051 silly addNameRange     '2.4.2',
+1051 silly addNameRange     '3.8.0',
+1051 silly addNameRange     '3.9.0',
+1051 silly addNameRange     '3.9.1',
+1051 silly addNameRange     '3.9.2',
+1051 silly addNameRange     '3.9.3',
+1051 silly addNameRange     '3.10.0',
+1051 silly addNameRange     '3.10.1',
+1051 silly addNameRange     '4.0.0',
+1051 silly addNameRange     '4.0.1',
+1051 silly addNameRange     '4.1.0',
+1051 silly addNameRange     '4.2.0',
+1051 silly addNameRange     '4.2.1',
+1051 silly addNameRange     '4.3.0',
+1051 silly addNameRange     '4.4.0',
+1051 silly addNameRange     '4.5.0',
+1051 silly addNameRange     '4.5.1',
+1051 silly addNameRange     '4.6.0',
+1051 silly addNameRange     '4.6.1',
+1051 silly addNameRange     '4.7.0',
+1051 silly addNameRange     '4.8.0',
+1051 silly addNameRange     '4.8.1',
+1051 silly addNameRange     '4.8.2',
+1051 silly addNameRange     '4.9.0',
+1051 silly addNameRange     '4.10.0',
+1051 silly addNameRange     '4.11.0',
+1051 silly addNameRange     '4.11.1',
+1051 silly addNameRange     '4.11.2',
+1051 silly addNameRange     '4.12.0',
+1051 silly addNameRange     '4.13.0',
+1051 silly addNameRange     '4.13.1',
+1051 silly addNameRange     '4.14.0',
+1051 silly addNameRange     '4.14.1',
+1051 silly addNameRange     '4.14.2',
+1051 silly addNameRange     '4.15.0',
+1051 silly addNameRange     '4.16.0',
+1051 silly addNameRange     '4.16.1',
+1051 silly addNameRange     '4.16.2',
+1051 silly addNameRange     '4.16.3',
+1051 silly addNameRange     '4.16.4',
+1051 silly addNameRange     '4.16.5',
+1051 silly addNameRange     '4.16.6',
+1051 silly addNameRange     '4.17.0',
+1051 silly addNameRange     '4.17.1',
+1051 silly addNameRange     '4.17.2',
+1051 silly addNameRange     '4.17.3',
+1051 silly addNameRange     '4.17.4' ] ]
+1052 silly addNamed lodash@4.17.4
+1053 verbose addNamed "4.17.4" is a plain semver version for lodash
+1054 verbose get https://registry.npmjs.org/titlecase not expired, no request
+1055 silly addNameRange number 2 { name: 'titlecase', range: '>=1.1.2 <2.0.0', hasData: true }
+1056 silly addNameRange versions [ 'titlecase', [ '1.0.0', '1.0.1', '1.0.2', '1.1.1', '1.1.2' ] ]
+1057 silly addNamed titlecase@1.1.2
+1058 verbose addNamed "1.1.2" is a plain semver version for titlecase
+1059 verbose get https://registry.npmjs.org/hexo-front-matter not expired, no request
+1060 silly addNameRange number 2 { name: 'hexo-front-matter',
+1060 silly addNameRange   range: '>=0.2.2 <0.3.0',
+1060 silly addNameRange   hasData: true }
+1061 silly addNameRange versions [ 'hexo-front-matter',
+1061 silly addNameRange   [ '0.0.1',
+1061 silly addNameRange     '0.0.2',
+1061 silly addNameRange     '0.0.3',
+1061 silly addNameRange     '0.0.4',
+1061 silly addNameRange     '0.1.0',
+1061 silly addNameRange     '0.2.0',
+1061 silly addNameRange     '0.2.1',
+1061 silly addNameRange     '0.2.2',
+1061 silly addNameRange     '0.2.3' ] ]
+1062 silly addNamed hexo-front-matter@0.2.3
+1063 verbose addNamed "0.2.3" is a plain semver version for hexo-front-matter
+1064 verbose get https://registry.npmjs.org/tildify not expired, no request
+1065 silly addNameRange number 2 { name: 'tildify', range: '>=1.2.0 <2.0.0', hasData: true }
+1066 silly addNameRange versions [ 'tildify',
+1066 silly addNameRange   [ '0.1.0', '0.2.0', '1.0.0', '1.1.0', '1.1.1', '1.1.2', '1.2.0' ] ]
+1067 silly addNamed tildify@1.2.0
+1068 verbose addNamed "1.2.0" is a plain semver version for tildify
+1069 verbose get https://registry.npmjs.org/moment-timezone not expired, no request
+1070 silly addNameRange number 2 { name: 'moment-timezone',
+1070 silly addNameRange   range: '>=0.5.4 <0.6.0',
+1070 silly addNameRange   hasData: true }
+1071 silly addNameRange versions [ 'moment-timezone',
+1071 silly addNameRange   [ '0.0.1',
+1071 silly addNameRange     '0.0.2',
+1071 silly addNameRange     '0.0.3',
+1071 silly addNameRange     '0.0.5',
+1071 silly addNameRange     '0.0.6',
+1071 silly addNameRange     '0.1.0',
+1071 silly addNameRange     '0.2.0',
+1071 silly addNameRange     '0.2.1',
+1071 silly addNameRange     '0.2.2',
+1071 silly addNameRange     '0.2.3',
+1071 silly addNameRange     '0.2.4',
+1071 silly addNameRange     '0.2.5',
+1071 silly addNameRange     '0.3.0',
+1071 silly addNameRange     '0.3.1',
+1071 silly addNameRange     '0.4.0',
+1071 silly addNameRange     '0.4.1',
+1071 silly addNameRange     '0.5.0',
+1071 silly addNameRange     '0.5.1',
+1071 silly addNameRange     '0.5.2',
+1071 silly addNameRange     '0.5.3',
+1071 silly addNameRange     '0.5.4',
+1071 silly addNameRange     '0.5.5',
+1071 silly addNameRange     '0.5.6',
+1071 silly addNameRange     '0.5.7',
+1071 silly addNameRange     '0.5.8',
+1071 silly addNameRange     '0.5.9',
+1071 silly addNameRange     '0.5.10' ] ]
+1072 silly addNamed moment-timezone@0.5.10
+1073 verbose addNamed "0.5.10" is a plain semver version for moment-timezone
+1074 verbose get https://registry.npmjs.org/minimatch not expired, no request
+1075 silly addNameRange number 2 { name: 'minimatch', range: '>=3.0.0 <4.0.0', hasData: true }
+1076 silly addNameRange versions [ 'minimatch',
+1076 silly addNameRange   [ '0.0.1',
+1076 silly addNameRange     '0.0.2',
+1076 silly addNameRange     '0.0.4',
+1076 silly addNameRange     '0.0.5',
+1076 silly addNameRange     '0.1.1',
+1076 silly addNameRange     '0.1.2',
+1076 silly addNameRange     '0.1.3',
+1076 silly addNameRange     '0.1.4',
+1076 silly addNameRange     '0.1.5',
+1076 silly addNameRange     '0.2.0',
+1076 silly addNameRange     '0.2.2',
+1076 silly addNameRange     '0.2.3',
+1076 silly addNameRange     '0.2.4',
+1076 silly addNameRange     '0.2.5',
+1076 silly addNameRange     '0.2.6',
+1076 silly addNameRange     '0.2.7',
+1076 silly addNameRange     '0.2.8',
+1076 silly addNameRange     '0.2.9',
+1076 silly addNameRange     '0.2.10',
+1076 silly addNameRange     '0.2.11',
+1076 silly addNameRange     '0.2.12',
+1076 silly addNameRange     '0.2.13',
+1076 silly addNameRange     '0.2.14',
+1076 silly addNameRange     '0.3.0',
+1076 silly addNameRange     '0.4.0',
+1076 silly addNameRange     '1.0.0',
+1076 silly addNameRange     '2.0.0',
+1076 silly addNameRange     '2.0.1',
+1076 silly addNameRange     '2.0.2',
+1076 silly addNameRange     '2.0.3',
+1076 silly addNameRange     '2.0.4',
+1076 silly addNameRange     '2.0.5',
+1076 silly addNameRange     '2.0.6',
+1076 silly addNameRange     '2.0.7',
+1076 silly addNameRange     '2.0.8',
+1076 silly addNameRange     '2.0.9',
+1076 silly addNameRange     '2.0.10',
+1076 silly addNameRange     '3.0.0',
+1076 silly addNameRange     '3.0.2',
+1076 silly addNameRange     '3.0.3' ] ]
+1077 silly addNamed minimatch@3.0.3
+1078 verbose addNamed "3.0.3" is a plain semver version for minimatch
+1079 verbose get https://registry.npmjs.org/hexo-log not expired, no request
+1080 silly addNameRange number 2 { name: 'hexo-log', range: '>=0.1.2 <0.2.0', hasData: true }
+1081 silly addNameRange versions [ 'hexo-log', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+1082 silly addNamed hexo-log@0.1.2
+1083 verbose addNamed "0.1.2" is a plain semver version for hexo-log
+1084 verbose get https://registry.npmjs.org/pretty-hrtime not expired, no request
+1085 silly addNameRange number 2 { name: 'pretty-hrtime', range: '>=1.0.2 <2.0.0', hasData: true }
+1086 silly addNameRange versions [ 'pretty-hrtime',
+1086 silly addNameRange   [ '0.2.0', '0.2.1', '0.2.2', '1.0.0', '1.0.1', '1.0.2', '1.0.3' ] ]
+1087 silly addNamed pretty-hrtime@1.0.3
+1088 verbose addNamed "1.0.3" is a plain semver version for pretty-hrtime
+1089 verbose get https://registry.npmjs.org/strip-indent not expired, no request
+1090 silly addNameRange number 2 { name: 'strip-indent', range: '>=1.0.1 <2.0.0', hasData: true }
+1091 silly addNameRange versions [ 'strip-indent',
+1091 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '1.0.0', '1.0.1', '2.0.0' ] ]
+1092 silly addNamed strip-indent@1.0.1
+1093 verbose addNamed "1.0.1" is a plain semver version for strip-indent
+1094 verbose get https://registry.npmjs.org/archy not expired, no request
+1095 silly addNameRange number 2 { name: 'archy', range: '>=1.0.0 <2.0.0', hasData: true }
+1096 silly addNameRange versions [ 'archy', [ '0.0.0', '0.0.1', '0.0.2', '1.0.0' ] ]
+1097 silly addNamed archy@1.0.0
+1098 verbose addNamed "1.0.0" is a plain semver version for archy
+1099 silly cache afterAdd hexo-fs@0.1.6
+1100 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\hexo-fs\0.1.6\package\package.json not in flight; writing
+1101 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1102 verbose get https://registry.npmjs.org/text-table not expired, no request
+1103 silly addNameRange number 2 { name: 'text-table', range: '>=0.2.0 <0.3.0', hasData: true }
+1104 silly addNameRange versions [ 'text-table',
+1104 silly addNameRange   [ '0.0.0', '0.0.1', '0.1.0', '0.1.1', '0.2.0' ] ]
+1105 silly addNamed text-table@0.2.0
+1106 verbose addNamed "0.2.0" is a plain semver version for text-table
+1107 verbose get https://registry.npmjs.org/moment not expired, no request
+1108 silly addNameRange number 2 { name: 'moment', range: '>=2.13.0 <2.14.0', hasData: true }
+1109 silly addNameRange versions [ 'moment',
+1109 silly addNameRange   [ '1.0.0',
+1109 silly addNameRange     '1.0.1',
+1109 silly addNameRange     '1.1.0',
+1109 silly addNameRange     '1.1.1',
+1109 silly addNameRange     '1.2.0',
+1109 silly addNameRange     '1.3.0',
+1109 silly addNameRange     '1.4.0',
+1109 silly addNameRange     '1.5.0',
+1109 silly addNameRange     '1.5.1',
+1109 silly addNameRange     '1.6.0',
+1109 silly addNameRange     '1.6.1',
+1109 silly addNameRange     '1.6.2',
+1109 silly addNameRange     '1.7.0',
+1109 silly addNameRange     '1.7.1',
+1109 silly addNameRange     '1.7.2',
+1109 silly addNameRange     '2.0.0',
+1109 silly addNameRange     '2.1.0',
+1109 silly addNameRange     '2.2.1',
+1109 silly addNameRange     '2.3.0',
+1109 silly addNameRange     '2.3.1',
+1109 silly addNameRange     '2.4.0',
+1109 silly addNameRange     '2.5.0',
+1109 silly addNameRange     '2.5.1',
+1109 silly addNameRange     '2.6.0',
+1109 silly addNameRange     '2.7.0',
+1109 silly addNameRange     '2.8.1',
+1109 silly addNameRange     '2.8.2',
+1109 silly addNameRange     '2.8.3',
+1109 silly addNameRange     '2.8.4',
+1109 silly addNameRange     '2.9.0',
+1109 silly addNameRange     '2.10.2',
+1109 silly addNameRange     '2.10.3',
+1109 silly addNameRange     '2.10.5',
+1109 silly addNameRange     '2.10.6',
+1109 silly addNameRange     '2.11.0',
+1109 silly addNameRange     '2.11.1',
+1109 silly addNameRange     '2.11.2',
+1109 silly addNameRange     '2.12.0',
+1109 silly addNameRange     '2.13.0',
+1109 silly addNameRange     '2.14.0',
+1109 silly addNameRange     '2.14.1',
+1109 silly addNameRange     '2.15.0',
+1109 silly addNameRange     '2.15.1',
+1109 silly addNameRange     '2.15.2',
+1109 silly addNameRange     '2.16.0',
+1109 silly addNameRange     '2.17.0',
+1109 silly addNameRange     '2.17.1' ] ]
+1110 silly addNamed moment@2.13.0
+1111 verbose addNamed "2.13.0" is a plain semver version for moment
+1112 verbose get https://registry.npmjs.org/swig-extras not expired, no request
+1113 verbose get https://registry.npmjs.org/nunjucks not expired, no request
+1114 silly addNameRange number 2 { name: 'nunjucks', range: '>=2.4.2 <3.0.0', hasData: true }
+1115 silly addNameRange versions [ 'nunjucks',
+1115 silly addNameRange   [ '0.1.0',
+1115 silly addNameRange     '0.1.1',
+1115 silly addNameRange     '0.1.2',
+1115 silly addNameRange     '0.1.3',
+1115 silly addNameRange     '0.1.4',
+1115 silly addNameRange     '0.1.5',
+1115 silly addNameRange     '0.1.6',
+1115 silly addNameRange     '0.1.7',
+1115 silly addNameRange     '0.1.8',
+1115 silly addNameRange     '0.1.9',
+1115 silly addNameRange     '0.1.10',
+1115 silly addNameRange     '1.0.0',
+1115 silly addNameRange     '0.1.0-a1',
+1115 silly addNameRange     '0.1.0-a2',
+1115 silly addNameRange     '0.1.0-a3',
+1115 silly addNameRange     '0.1.0-a4',
+1115 silly addNameRange     '0.1.0-a5',
+1115 silly addNameRange     '0.1.0-a6',
+1115 silly addNameRange     '0.1.0-b1',
+1115 silly addNameRange     '0.1.4-a',
+1115 silly addNameRange     '0.1.8-a',
+1115 silly addNameRange     '1.0.1',
+1115 silly addNameRange     '1.0.2',
+1115 silly addNameRange     '1.0.3',
+1115 silly addNameRange     '1.0.4',
+1115 silly addNameRange     '1.0.5',
+1115 silly addNameRange     '1.0.6',
+1115 silly addNameRange     '1.0.7',
+1115 silly addNameRange     '1.1.0',
+1115 silly addNameRange     '1.2.0',
+1115 silly addNameRange     '1.3.0',
+1115 silly addNameRange     '1.3.1',
+1115 silly addNameRange     '1.3.3',
+1115 silly addNameRange     '1.3.4',
+1115 silly addNameRange     '2.0.0',
+1115 silly addNameRange     '2.1.0',
+1115 silly addNameRange     '2.2.0',
+1115 silly addNameRange     '2.3.0',
+1115 silly addNameRange     '2.4.0',
+1115 silly addNameRange     '2.4.1',
+1115 silly addNameRange     '2.4.2',
+1115 silly addNameRange     '2.4.3',
+1115 silly addNameRange     '2.5.0',
+1115 silly addNameRange     '2.5.1',
+1115 silly addNameRange     '2.5.2',
+1115 silly addNameRange     '3.0.0' ] ]
+1116 silly addNamed nunjucks@2.5.2
+1117 verbose addNamed "2.5.2" is a plain semver version for nunjucks
+1118 verbose get https://registry.npmjs.org/abbrev not expired, no request
+1119 silly addNameRange number 2 { name: 'abbrev', range: '>=1.0.7 <2.0.0', hasData: true }
+1120 silly addNameRange versions [ 'abbrev',
+1120 silly addNameRange   [ '1.0.3', '1.0.4', '1.0.5', '1.0.6', '1.0.7', '1.0.9' ] ]
+1121 silly addNamed abbrev@1.0.9
+1122 verbose addNamed "1.0.9" is a plain semver version for abbrev
+1123 silly cache afterAdd hexo-cli@1.0.2
+1124 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\hexo-cli\1.0.2\package\package.json not in flight; writing
+1125 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1126 verbose get https://registry.npmjs.org/warehouse not expired, no request
+1127 silly addNameRange number 2 { name: 'warehouse', range: '>=2.2.0 <3.0.0', hasData: true }
+1128 silly addNameRange versions [ 'warehouse',
+1128 silly addNameRange   [ '0.0.1',
+1128 silly addNameRange     '0.0.2',
+1128 silly addNameRange     '0.0.3',
+1128 silly addNameRange     '0.0.4',
+1128 silly addNameRange     '0.0.5',
+1128 silly addNameRange     '0.1.0',
+1128 silly addNameRange     '0.1.1',
+1128 silly addNameRange     '0.1.2',
+1128 silly addNameRange     '0.1.3',
+1128 silly addNameRange     '0.1.4',
+1128 silly addNameRange     '0.1.5',
+1128 silly addNameRange     '0.1.6',
+1128 silly addNameRange     '0.1.7',
+1128 silly addNameRange     '0.1.8',
+1128 silly addNameRange     '0.1.9',
+1128 silly addNameRange     '0.1.10',
+1128 silly addNameRange     '0.1.11',
+1128 silly addNameRange     '0.1.12',
+1128 silly addNameRange     '0.1.13',
+1128 silly addNameRange     '0.1.14',
+1128 silly addNameRange     '0.2.0',
+1128 silly addNameRange     '0.2.1',
+1128 silly addNameRange     '0.2.2',
+1128 silly addNameRange     '1.0.0-rc.1',
+1128 silly addNameRange     '1.0.0-rc.2',
+1128 silly addNameRange     '1.0.0-rc.3',
+1128 silly addNameRange     '1.0.0-rc.4',
+1128 silly addNameRange     '1.0.0-rc.5',
+1128 silly addNameRange     '1.0.0',
+1128 silly addNameRange     '1.0.1',
+1128 silly addNameRange     '1.0.2',
+1128 silly addNameRange     '1.0.3',
+1128 silly addNameRange     '2.0.0',
+1128 silly addNameRange     '2.1.0',
+1128 silly addNameRange     '2.1.1',
+1128 silly addNameRange     '2.1.2',
+1128 silly addNameRange     '2.1.3',
+1128 silly addNameRange     '2.2.0' ] ]
+1129 silly addNamed warehouse@2.2.0
+1130 verbose addNamed "2.2.0" is a plain semver version for warehouse
+1131 verbose get https://registry.npmjs.org/swig not expired, no request
+1132 warn deprecated swig@1.4.2: This package is no longer maintained
+1133 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\chalk\1.1.3\package\package.json written
+1134 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\cheerio\0.20.0\package\package.json written
+1135 silly cache afterAdd hexo-i18n@0.2.1
+1136 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\hexo-i18n\0.2.1\package\package.json not in flight; writing
+1137 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1138 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\hexo-fs\0.1.6\package\package.json written
+1139 silly cache afterAdd hexo-util@0.6.0
+1140 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\hexo-util\0.6.0\package\package.json not in flight; writing
+1141 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1142 silly cache afterAdd hexo-log@0.1.2
+1143 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\hexo-log\0.1.2\package\package.json not in flight; writing
+1144 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1145 silly cache afterAdd hexo-front-matter@0.2.3
+1146 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\hexo-front-matter\0.2.3\package\package.json not in flight; writing
+1147 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1148 silly cache afterAdd tildify@1.2.0
+1149 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\tildify\1.2.0\package\package.json not in flight; writing
+1150 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1151 silly cache afterAdd lodash@4.17.4
+1152 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\lodash\4.17.4\package\package.json not in flight; writing
+1153 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1154 silly cache afterAdd text-table@0.2.0
+1155 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\text-table\0.2.0\package\package.json not in flight; writing
+1156 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1157 silly cache afterAdd titlecase@1.1.2
+1158 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\titlecase\1.1.2\package\package.json not in flight; writing
+1159 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1160 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\hexo-cli\1.0.2\package\package.json written
+1161 silly cache afterAdd archy@1.0.0
+1162 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\archy\1.0.0\package\package.json not in flight; writing
+1163 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1164 silly cache afterAdd pretty-hrtime@1.0.3
+1165 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\pretty-hrtime\1.0.3\package\package.json not in flight; writing
+1166 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1167 silly cache afterAdd moment@2.13.0
+1168 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\moment\2.13.0\package\package.json not in flight; writing
+1169 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1170 silly cache afterAdd minimatch@3.0.3
+1171 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\minimatch\3.0.3\package\package.json not in flight; writing
+1172 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1173 silly cache afterAdd strip-indent@1.0.1
+1174 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\strip-indent\1.0.1\package\package.json not in flight; writing
+1175 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1176 silly cache afterAdd swig-extras@0.0.1
+1177 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\swig-extras\0.0.1\package\package.json not in flight; writing
+1178 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1179 silly cache afterAdd moment-timezone@0.5.10
+1180 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\moment-timezone\0.5.10\package\package.json not in flight; writing
+1181 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1182 silly cache afterAdd warehouse@2.2.0
+1183 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\warehouse\2.2.0\package\package.json not in flight; writing
+1184 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1185 silly cache afterAdd swig@1.4.2
+1186 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\swig\1.4.2\package\package.json not in flight; writing
+1187 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1188 silly cache afterAdd abbrev@1.0.9
+1189 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\abbrev\1.0.9\package\package.json not in flight; writing
+1190 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1191 silly cache afterAdd nunjucks@2.5.2
+1192 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\nunjucks\2.5.2\package\package.json not in flight; writing
+1193 verbose correctMkdir C:\Users\hy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1194 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\hexo-i18n\0.2.1\package\package.json written
+1195 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\hexo-log\0.1.2\package\package.json written
+1196 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\hexo-front-matter\0.2.3\package\package.json written
+1197 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\hexo-util\0.6.0\package\package.json written
+1198 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\tildify\1.2.0\package\package.json written
+1199 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\lodash\4.17.4\package\package.json written
+1200 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\text-table\0.2.0\package\package.json written
+1201 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\titlecase\1.1.2\package\package.json written
+1202 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\pretty-hrtime\1.0.3\package\package.json written
+1203 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\minimatch\3.0.3\package\package.json written
+1204 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\moment\2.13.0\package\package.json written
+1205 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\strip-indent\1.0.1\package\package.json written
+1206 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\swig-extras\0.0.1\package\package.json written
+1207 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\moment-timezone\0.5.10\package\package.json written
+1208 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\archy\1.0.0\package\package.json written
+1209 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\warehouse\2.2.0\package\package.json written
+1210 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\swig\1.4.2\package\package.json written
+1211 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\abbrev\1.0.9\package\package.json written
+1212 verbose afterAdd C:\Users\hy\AppData\Roaming\npm-cache\nunjucks\2.5.2\package\package.json written
+1213 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+1214 info attempt registry request try #2 at 09:07:49
+1215 http fetch GET https://registry.npmjs.org/js-yaml/-/js-yaml-3.8.1.tgz
+1216 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+1217 info attempt registry request try #3 at 09:09:10
+1218 http fetch GET https://registry.npmjs.org/js-yaml/-/js-yaml-3.8.1.tgz
+1219 error fetch failed https://registry.npmjs.org/js-yaml/-/js-yaml-3.8.1.tgz
+1220 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+1221 info retry fetch attempt 2 at 09:09:41
+1222 info attempt registry request try #1 at 09:09:41
+1223 http fetch GET https://registry.npmjs.org/js-yaml/-/js-yaml-3.8.1.tgz
+1224 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+1225 info attempt registry request try #2 at 09:10:12
+1226 http fetch GET https://registry.npmjs.org/js-yaml/-/js-yaml-3.8.1.tgz
+1227 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+1228 info attempt registry request try #3 at 09:11:33
+1229 http fetch GET https://registry.npmjs.org/js-yaml/-/js-yaml-3.8.1.tgz
+1230 error fetch failed https://registry.npmjs.org/js-yaml/-/js-yaml-3.8.1.tgz
+1231 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+1232 info retry fetch attempt 3 at 09:12:54
+1233 info attempt registry request try #1 at 09:12:54
+1234 http fetch GET https://registry.npmjs.org/js-yaml/-/js-yaml-3.8.1.tgz
+1235 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+1236 info attempt registry request try #2 at 09:13:25
+1237 http fetch GET https://registry.npmjs.org/js-yaml/-/js-yaml-3.8.1.tgz
+1238 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+1239 info attempt registry request try #3 at 09:14:46
+1240 http fetch GET https://registry.npmjs.org/js-yaml/-/js-yaml-3.8.1.tgz
+1241 error fetch failed https://registry.npmjs.org/js-yaml/-/js-yaml-3.8.1.tgz
+1242 silly rollbackFailedOptional Starting
+1243 silly rollbackFailedOptional Finishing
+1244 silly runTopLevelLifecycles Starting
+1245 silly runTopLevelLifecycles Finishing
+1246 silly install printInstalled
+1247 verbose stack Error: tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+1247 verbose stack     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+1247 verbose stack     at ClientRequest.g (events.js:273:16)
+1247 verbose stack     at emitOne (events.js:90:13)
+1247 verbose stack     at ClientRequest.emit (events.js:182:7)
+1247 verbose stack     at Socket.socketErrorListener (_http_client.js:262:9)
+1247 verbose stack     at emitOne (events.js:90:13)
+1247 verbose stack     at Socket.emit (events.js:182:7)
+1247 verbose stack     at emitErrorNT (net.js:1246:8)
+1247 verbose stack     at nextTickCallbackWith2Args (node.js:475:9)
+1247 verbose stack     at process._tickCallback (node.js:389:17)
+1248 verbose cwd E:\Web\Blog
+1249 error Windows_NT 10.0.14393
+1250 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "hexo" "--save-dev"
+1251 error node v5.6.0
+1252 error npm  v3.6.0
+1253 error code ECONNRESET
+1254 error network tunneling socket could not be established, cause=connect ETIMEDOUT 93.184.216.34:8080
+1255 error network This is most likely not a problem with npm itself
+1255 error network and is related to network connectivity.
+1255 error network In most cases you are behind a proxy or have bad network settings.
+1255 error network
+1255 error network If you are behind a proxy, please make sure that the
+1255 error network 'proxy' config is set properly.  See: 'npm help config'
+1256 verbose exit [ 1, true ]

@@ -1,0 +1,49 @@
+---
+title: D3.js踩的那些坑
+date: 2016-12-17 23:29:38
+categories: 
+  - 技术
+  - D3.js
+tags: D3.js
+---
+
+##### 1.g标签本身是没有x,y,width,heigh等属性，他的x,y,w,h是随着子元素的x,y,w,h变化而变化的。
+
+<!--more--> 
+
+```javascript
+var svg = d3.select('body')
+  .append('svg')
+  .attr('width', 100)
+  .attr('height', 100)
+ 
+//这里给g标签设置了width, height, x, y属性，但显示结果这些属性并不会生效
+//但如果给g标签设置了fill, font-size等属性值会被子元素继承
+svg.append('g')
+  .attr('width', 100)
+  .attr('height', 100)
+  .attr('x', 50)
+  .attr('y', 50)
+
+```
+##### 显示结果如下
+![](/css/images/d301.png)
+
+```javascript
+var svg = d3.select('body')
+  .append('svg')
+  .attr('width', 100)
+  .attr('height', 100)
+	
+svg.append('g')
+  .attr('fill', 'blue') //rect会继承g的fill属性
+  .append('rect')
+  .attr('width', 100)
+  .attr('height', 40)
+  .attr('x', 20)
+  .attr('y', 20)
+
+```
+##### 显示结果如下
+![](/css/images/d302.png)
+##### 2.在svg中添加image标签设置style的width,height在IE中不能显示，必须通过.attr设置width,height

@@ -1,0 +1,8 @@
+<% if (site.tags.length){ %>
+  <div class="widget-wrap">
+    <h3 class="widget-title"><%= __('tagcloud') %> ● Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <%- tagcloud({start_color: '#258fb8', end_color: '#ff7379',color: true, min_font: 14}) %>
+    </div>
+  </div>
+<% } %>
