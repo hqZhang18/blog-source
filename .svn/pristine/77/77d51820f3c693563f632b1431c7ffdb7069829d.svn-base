@@ -1,9 +1,0 @@
-#comments
-  background: #fff
- 
-  padding: article-padding
-  border-top: 1px solid color-border
-  border-radius: 3px
-  margin: -50px 0 50px 0
-  a
-    color: color-link

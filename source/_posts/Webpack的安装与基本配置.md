@@ -49,14 +49,14 @@ Webpack 在执行的时候，除了在命令行传入参数，还可以通过指
   "author": "zhanghongqiao",
   "license": "ISC",
   "dependencies": {
-    "babel-core": "^6.14.0",
-    "babel-loader": "^6.2.5",
     "jquery": "^3.1.1",
     "path": "^0.12.7",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.1"  //启服务
   },
   "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.14.0",
     "babel-preset-react": "^6.11.1",
     "babel-preset-react-hmre": "^1.1.1",
