@@ -7,7 +7,7 @@ tags: JavaScript
 ---
 
 将数组转换为对象，并循环遍历对象
-
+<!-- more -->
 ```javascript
 // 现有如下数组
 let array = [
@@ -19,7 +19,7 @@ let array = [
     name: 'AA2'
   }
 ]
-<!-- more -->
+
 let object = {}
 array.map(d => object[d.id] = d.name)
 

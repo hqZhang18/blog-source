@@ -9,7 +9,7 @@ tags: redux-saga
 ### createSagaMiddleware(...sagas)`
 
 创建一个 Redux 中间件，将 Sagas 与 Redux Store 建立
-
+<!-- more -->
 - `sagas: Array` - Generator 函数列表
 
   ```
