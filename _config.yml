@@ -102,6 +102,6 @@ disqus_shortname: jody
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/jodyzhq/blog.git
+  repository: https://github.com/hqiaoZhang/blog.git
   branch: gh-pages
 
