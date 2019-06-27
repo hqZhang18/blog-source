@@ -29,13 +29,16 @@ body
   background: color-background
   font: font-size font-sans
   -webkit-text-size-adjust: 100%
-
+ 
+ 
 .outer
   clearfix()
   max-width: (column-width + gutter-width) * columns + gutter-width
   margin: 0 auto
   padding: 0 gutter-width
-
+.app_main {
+  margin-top:  248px;
+}
 .inner
   column(columns)
 
@@ -87,3 +90,29 @@ if sidebar is left
 
 if sidebar
   @import "_partial/sidebar"
+
+
+  
+/*滚动条整体样式*/
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(165, 170, 178, 0.40);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #888;
+    display: none;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: black;
+}
