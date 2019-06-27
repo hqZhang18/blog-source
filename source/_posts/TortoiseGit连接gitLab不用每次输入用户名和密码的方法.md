@@ -1,10 +1,10 @@
 ---
 title: TortoiseGit连接gitLab不用每次输入用户名和密码的方法
-date: 2018-02-02 17:15:28
-categories:
-- 技术
-- Github
-  tags: Github
+date: 2017-08-08 08:49:56
+categories: 
+  - 技术
+  - Github
+tags: Github
 ---
 
 每次git clone 和push 都要输入用户名和密码。虽然安全，但在本机上每次都输有些麻烦，如何记住用户名和密码呢？
