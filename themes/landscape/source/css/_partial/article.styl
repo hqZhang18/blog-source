@@ -2,9 +2,8 @@
   margin: block-margin 0
 
 .article-inner
-  @extend $block
   overflow: hidden
-
+  border: 1px solid #eee
 .article-meta
   clearfix()
 
@@ -263,17 +262,13 @@
 	
 a.article-more-link 
   display: inline-block
-  line-height: 1em
-  padding: 6px 15px
-  border-radius: 15px
-  background: #76becc
-  color: #fff
-  margin-top:20px
+  line-height: 1em 
+  color: #00bade
+  margin-bottom:5px
   text-decoration: none
   float:right
-  &:hover
-    background: color-link
-    color: #fff
+  &:hover 
+    color: color-link
     text-decoration: none
 
 .article-date

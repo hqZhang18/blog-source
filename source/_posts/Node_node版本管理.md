@@ -3,7 +3,8 @@ title: node版本管理
 date: 2017-08-18 14:11:32
 categories: 
   - 技术
-tags: javascript
+  - Node
+tags: [node]
 ---
 
 一些环境经常因为版本问题跑不起来，那么怎么随意切换版本呢？
