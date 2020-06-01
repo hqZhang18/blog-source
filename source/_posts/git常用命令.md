@@ -3,6 +3,7 @@ title: git常用命令
 date: 2016-06-11 14:11:32
 categories: 
   - 技术
+  - Git
 tags: Github
 
 ---

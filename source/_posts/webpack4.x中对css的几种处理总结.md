@@ -58,8 +58,7 @@ new PurifyCssWebpack({
 })
 ```
 
-##### 
-三、自动添加浏览器内核前缀
+##### 三、自动添加浏览器内核前缀
 
 这里需要用到post-css（预处理器）还需要一个插件 autoprefixer(是处理前缀的插件，是post-css众多插件中的一种)
 

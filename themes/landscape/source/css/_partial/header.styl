@@ -3,16 +3,17 @@
   position: fixed;
   width: 100%;
   border-bottom: 1px solid color-border 
-  background: #fff
+  background: url(banner-url) no-repeat;
+  background-size: 100% 100%;
   box-shadow: 0px 0px 3px #ddd;
+  z-index: 1;
 #header-outer
   height: 100%
   position: relative
 
 #header-inner
   position: relative
-  overflow: hidden
-  margin-top: 100px
+  overflow: hidden 
   z-index: 2
 
 #banner
@@ -27,10 +28,9 @@
 
 #header-title
   position: absolute
-  top: 10%;
-  left: 45px
+  top: 27%; 
   text-align: right
-  color: #555553
+  color: #000
   text-shadow: 0 1px #fff
   line-height: 30px
   font-size:14px
@@ -63,7 +63,7 @@ $logo-text
 
 $nav-link
   float: left
-  color: #000
+  color: #fff
   opacity: 0.9
   text-decoration: none
   text-shadow: 0 1px rgba(0, 0, 0, 0.2)
@@ -80,7 +80,7 @@ $nav-link
   font-size: 16px
   width: font-size
   height: font-size
-  padding: 22px 15px
+  padding: 8px 15px
   position: relative
   cursor: pointer
 
@@ -89,7 +89,7 @@ $nav-link
   font-size:18px 
   letter-spacing: 1px
   font-family: "微软雅黑"
-  padding: 17px 30px
+  padding: 15px 30px
  
   @media mq-mobile
     display: none

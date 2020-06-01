@@ -3,7 +3,7 @@ title: TortoiseGit连接gitLab不用每次输入用户名和密码的方法
 date: 2017-08-08 08:49:56
 categories: 
   - 技术
-  - Github
+  - Git
 tags: Github
 ---
 
