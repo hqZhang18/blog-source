@@ -96,12 +96,12 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: landscape
 # Disqus Disqus插件，我们会替换成“多说”，不修改
-disqus_shortname: jody
+disqus_shortname: Alysa
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/hqiaoZhang/blog.git
+  repository: git@github.com:hqiaozhang/blog.git
   branch: gh-pages
 

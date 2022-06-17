@@ -67,9 +67,9 @@ baidu_tongji: true
 # 友情链接
 links:
 - name: baizn
-  link: http://baizn.github.io
+  link: https://github.com/baizn
 - name: ClassRun
-  link: http://init.funlee.cn
+  link: https://www.funlee.cn/
 - name: tangqk
   link: https://wxxtqk.github.io
 - name: zy380196088
